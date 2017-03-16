@@ -53,7 +53,7 @@ public class TaskDate {
 
     @Override
     public String toString() {
-        return value;
+        return value.toString();
     }
 
     @Override
