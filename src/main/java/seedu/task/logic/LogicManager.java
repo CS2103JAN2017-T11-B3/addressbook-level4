@@ -1,5 +1,6 @@
 package seedu.task.logic;
 
+import java.util.Stack;
 import java.util.logging.Logger;
 
 import javafx.collections.ObservableList;
@@ -21,10 +22,14 @@ public class LogicManager extends ComponentManager implements Logic {
 
     private final Model model;
     private final Parser parser;
+    private final Stack<Command> history; // store complementary command;
+                                          // UNdoable abstract class; tasks need
+                                          // a uid?
 
     public LogicManager(Model model, Storage storage) {
         this.model = model;
         this.parser = new Parser();
+        this.history = new Stack<Command>();
     }
 
     @Override
@@ -32,7 +37,9 @@ public class LogicManager extends ComponentManager implements Logic {
         logger.info("----------------[USER COMMAND][" + commandText + "]");
         Command command = parser.parseCommand(commandText);
         command.setData(model);
-        return command.execute();
+        CommandResult cr = command.execute();
+        history.push(command);
+        return cr;
     }
 
     @Override
