@@ -4,17 +4,17 @@ By : `CS2103JAN2017-T11-B3`  &nbsp;&nbsp;&nbsp;&nbsp; Since: `Feb 2017`  &nbsp;&
 
 ---
 
-1. [Setting Up](setting-up)
-2. [Design](design)
-3. [Implementation](implementation)
-4. [Testing](testing)
-5. [Dev Ops](dev-ops)
+1. [Setting Up](#setting-up)
+2. [Design](#design)
+3. [Implementation](#implementation)
+4. [Testing](#testing)
+5. [Dev Ops](#dev-ops)
 
-* [Appendix A: User Stories](appendix-a--user-stories)
-* [Appendix B: Use Cases](appendix-b--use-cases)
-* [Appendix C: Non Functional Requirements](appendix-c--non-functional-requirements)
-* [Appendix D: Glossary](appendix-d--glossary)
-* [Appendix E : Product Survey](appendix-e--product-survey)
+* [Appendix A: User Stories](#appendix-a--user-stories)
+* [Appendix B: Use Cases](#appendix-b--use-cases)
+* [Appendix C: Non Functional Requirements](#appendix-c--non-functional-requirements)
+* [Appendix D: Glossary](#appendix-d--glossary)
+* [Appendix E : Product Survey](#appendix-e--product-survey)
 
 
 ## 1. Setting up
@@ -86,7 +86,7 @@ Given below is a quick overview of each component.
 > Tip: The `.pptx` files used to create diagrams in this document can be found in the [diagrams](diagrams/) folder.
 > To update a diagram, modify the diagram in the pptx file, select the objects of the diagram, and choose `Save as picture`.
 
-`Main` has only one class called [`MainApp`](../src/main/java/seedu/address/MainApp.java). It is responsible for,
+`Main` has only one class called [`MainApp`](../src/main/java/seedu/task/MainApp.java). It is responsible for,
 
 * At app launch: Initializes the components in the correct sequence, and connects them up with each other.
 * At shut down: Shuts down the components and invokes cleanup method where necessary.
@@ -144,14 +144,14 @@ Author: Alice Bee
 <img src="images/UiClassDiagram.png" width="800"><br>
 _Figure 2.2.1 : Structure of the UI Component_
 
-**API** : [`Ui.java`](../src/main/java/seedu/address/ui/Ui.java)
+**API** : [`Ui.java`](../src/main/java/seedu/task/ui/Ui.java)
 
 The UI consists of a `MainWindow` that is made up of parts e.g.`CommandBox`, `ResultDisplay`, `PersonListPanel`,
 `StatusBarFooter`, `BrowserPanel` etc. All these, including the `MainWindow`, inherit from the abstract `UiPart` class.
 
 The `UI` component uses JavaFx UI framework. The layout of these UI parts are defined in matching `.fxml` files
  that are in the `src/main/resources/view` folder.<br>
- For example, the layout of the [`MainWindow`](../src/main/java/seedu/address/ui/MainWindow.java) is specified in
+ For example, the layout of the [`MainWindow`](../src/main/java/seedu/task/ui/MainWindow.java) is specified in
  [`MainWindow.fxml`](../src/main/resources/view/MainWindow.fxml)
 
 The `UI` component,
@@ -162,12 +162,12 @@ The `UI` component,
 
 ### 2.3. Logic component
 
-Author: Bernard Choo
+Author: Wu Heyang
 
 <img src="images/LogicClassDiagram.png" width="800"><br>
 _Figure 2.3.1 : Structure of the Logic Component_
 
-**API** : [`Logic.java`](../src/main/java/seedu/address/logic/Logic.java)
+**API** : [`Logic.java`](../src/main/java/seedu/task/logic/Logic.java)
 
 1. `Logic` uses the `Parser` class to parse the user command.
 2. This results in a `Command` object which is executed by the `LogicManager`.
@@ -181,38 +181,38 @@ _Figure 2.3.1 : Interactions Inside the Logic Component for the `delete 1` Comma
 
 ### 2.4. Model component
 
-Author: Cynthia Dharman
+Author: Jay Kabra
 
 <img src="images/ModelClassDiagram.png" width="800"><br>
 _Figure 2.4.1 : Structure of the Model Component_
 
-**API** : [`Model.java`](../src/main/java/seedu/address/model/Model.java)
+**API** : [`Model.java`](../src/main/java/seedu/task/model/Model.java)
 
 The `Model`,
 
 * stores a `UserPref` object that represents the user's preferences.
-* stores the Address Book data.
-* exposes a `UnmodifiableObservableList<ReadOnlyPerson>` that can be 'observed' e.g. the UI can be bound to this list
+* stores the Task List data.
+* exposes a `UnmodifiableObservableList<ReadOnlyTask>` that can be 'observed' e.g. the UI can be bound to this list
   so that the UI automatically updates when the data in the list change.
 * does not depend on any of the other three components.
 
 ### 2.5. Storage component
 
-Author: Darius Foong
+Author: Tyler Rocha
 
 <img src="images/StorageClassDiagram.png" width="800"><br>
 _Figure 2.5.1 : Structure of the Storage Component_
 
-**API** : [`Storage.java`](../src/main/java/seedu/address/storage/Storage.java)
+**API** : [`Storage.java`](../src/main/java/seedu/task/storage/Storage.java)
 
 The `Storage` component,
 
 * can save `UserPref` objects in json format and read it back.
-* can save the Address Book data in xml format and read it back.
+* can save the Task List data in xml format and read it back.
 
 ### 2.6. Common classes
 
-Classes used by multiple components are in the `seedu.taskbook.commons` package.
+Classes used by multiple components are in the `seedu.task.commons` package.
 
 ## 3. Implementation
 
@@ -323,7 +323,7 @@ Here are the steps to convert the project documentation files to PDF format.
  1. Make sure you have set up GitHub Pages as described in [UsingGithubPages.md](UsingGithubPages.md#setting-up).
  1. Using Chrome, go to the [GitHub Pages version](UsingGithubPages.md#viewing-the-project-site) of the
     documentation file. <br>
-    e.g. For [UserGuide.md](UserGuide.md), the URL will be `https://<your-username-or-organization-name>.github.io/addressbook-level4/docs/UserGuide.html`.
+    e.g. For [UserGuide.md](UserGuide.md), the URL will be `https://<your-username-or-organization-name>.github.io/main/docs/UserGuide.html`.
  1. Click on the `Print` option in Chrome's menu.
  1. Set the destination to `Save as PDF`, then click `Save` to save a copy of the file in PDF format. <br>
     For best results, use the settings indicated in the screenshot below. <br>
@@ -332,7 +332,7 @@ Here are the steps to convert the project documentation files to PDF format.
 
 ### 5.6. Managing Dependencies
 
-A project often depends on third-party libraries. For example, Address Book depends on the
+A project often depends on third-party libraries. For example, Task List depends on the
 [Jackson library](http://wiki.fasterxml.com/JacksonHome) for XML parsing. Managing these _dependencies_
 can be automated using Gradle. For example, Gradle can download the dependencies automatically, which
 is better than these alternatives.<br>

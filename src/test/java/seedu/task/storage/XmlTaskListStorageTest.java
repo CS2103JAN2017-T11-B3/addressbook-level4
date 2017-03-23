@@ -54,11 +54,11 @@ public class XmlTaskListStorageTest {
         thrown.expect(DataConversionException.class);
         readTaskList("NotXmlFormatTaskList.xml");
         fail();
-        /*
-         * IMPORTANT: Any code below an exception-throwing line (like the one
-         * above) will be ignored. That means you should not have more than one
-         * exception test in one method
-         */
+
+        //          * IMPORTANT: Any code below an exception-throwing line (like the one
+        //          * above) will be ignored. That means you should not have more than one
+        //          * exception test in one method
+
     }
 
     @Test
@@ -75,7 +75,7 @@ public class XmlTaskListStorageTest {
 
         // Modify data, overwrite exiting file, and read back
         original.addTask(new Task(td.hoon));
-        original.removeTask(new Task(td.alice));
+        original.removeTask(new Task(td.fiona));
         xmlTaskListStorage.saveTaskList(original, filePath);
         readBack = xmlTaskListStorage.readTaskList(filePath).get();
         assertEquals(original, new TaskList(readBack));
@@ -84,7 +84,7 @@ public class XmlTaskListStorageTest {
         original.addTask(new Task(td.ida));
         xmlTaskListStorage.saveTaskList(original); // file path not specified
         readBack = xmlTaskListStorage.readTaskList().get(); // file path not
-                                                            // specified
+        // specified
         assertEquals(original, new TaskList(readBack));
 
     }

@@ -1,3 +1,4 @@
+//@@author A0164212U
 package seedu.task.model.task;
 
 import java.text.ParseException;
@@ -12,11 +13,11 @@ import seedu.task.commons.exceptions.IllegalValueException;
  */
 public class Timing implements Comparable<Timing> {
 
-    public static final String MESSAGE_TIMING_CONSTRAINTS = "Task date should be in the format HH:mm dd/MM/yyyy OR dd/MM/yyyy";
+    public static final String MESSAGE_TIMING_CONSTRAINTS =
+            "Task date should be in the format HH:mm dd/MM/yyyy OR dd/MM/yyyy";
     public static final String[] TIMING_FORMAT = {
-            // "dd/MM/yyyy HH:mm",
-            "HH:mm dd/MM/yyyy", "dd/MM/yyyy" };
-
+        "HH:mm dd/MM/yyyy", "dd/MM/yyyy" };
+    public static final String NULL_TIMING = "n/a";
     public final String value;
     private Date date;
 
@@ -34,16 +35,16 @@ public class Timing implements Comparable<Timing> {
             }
             this.value = trimmedTiming;
         } else {
-            this.value = "n/a";
+            this.value = NULL_TIMING;
         }
     }
 
     /**
      * Returns if a given string is a valid date.
      */
-    private boolean isValidTiming(String test) {
+    public boolean isValidTiming(String test) {
         boolean isValid = false;
-        if (test.equals("n/a")) {
+        if (test.equals(NULL_TIMING)) {
             isValid = true;
         } else {
             for (int i = 0; i < TIMING_FORMAT.length; i++) {
@@ -75,7 +76,7 @@ public class Timing implements Comparable<Timing> {
         return other == this // short circuit if same object
                 || (other instanceof Timing // instanceof handles nulls
                         && this.value.equals(((Timing) other).value)); // state
-                                                                       // check
+        // check
     }
 
     @Override
@@ -83,12 +84,45 @@ public class Timing implements Comparable<Timing> {
         return value.hashCode();
     }
 
+//@@author A0163559U
     /**
      * Results in Timing sorted in ascending order.
      */
+    @SuppressWarnings("deprecation")
     @Override
     public int compareTo(Timing compareTiming) {
-        return this.date.compareTo(compareTiming.date);
+        boolean thisNull = this.date == null;
+        boolean otherNull = compareTiming.date == null;
+
+        if (thisNull && otherNull) {
+            return 0;
+        } else if (thisNull) {
+            return 1;
+        } else if (otherNull) {
+            return -1;
+        }
+
+        boolean thisNullTiming = this.date.equals(NULL_TIMING);
+        boolean otherNullTiming = compareTiming.date.equals(NULL_TIMING);
+
+        if (thisNullTiming && otherNullTiming) {
+            return 0;
+        } else if (thisNullTiming) {
+            return 1;
+        } else if (otherNullTiming) {
+            return -1;
+        }
+
+        int compareToResult = this.date.getYear() - compareTiming.date.getYear();
+
+        if (compareToResult == 0) {
+            compareToResult = this.date.getMonth() - compareTiming.date.getMonth();
+        }
+
+        if (compareToResult == 0) {
+            compareToResult = this.date.getDay() - compareTiming.date.getDay();
+        }
+        return compareToResult;
     }
 
 }
