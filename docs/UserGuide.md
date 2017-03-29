@@ -170,7 +170,17 @@ Format: `clear`
 Exits the program.<br>
 Format: `exit`
 
-### 2.11. Saving the data
+### 2.11. Undo changes : `undo`
+
+Undo the last change made.<br>
+Format: `undo`
+
+### 2.12. Redo undos : `redo`
+
+Redo the last undo change made.<br>
+Format: `redo`
+
+### 2.13. Saving the data
 
 task list data are saved in the hard disk automatically after any command that changes the data.<br>
 There is no need to save manually.
@@ -209,5 +219,11 @@ There is no need to save manually.
 * **Prioritze** : `prioritize INDEX PRIORITY_LEVEL` <br>
    e.g. `priority 2 3`
 
+* **Undo** : `undo` <br>
+   e.g. `undo`
+
+* **Redo** : `redo` <br>
+   e.g. `redo`
+   
 * **Exit ** : `exit` <br>
    e.g. `exit`
