@@ -18,7 +18,9 @@ import seedu.task.logic.commands.HelpCommand;
 import seedu.task.logic.commands.IncorrectCommand;
 import seedu.task.logic.commands.ListCommand;
 import seedu.task.logic.commands.PrioritizeCommand;
+import seedu.task.logic.commands.RedoCommand;
 import seedu.task.logic.commands.SelectCommand;
+import seedu.task.logic.commands.UndoCommand;
 
 /**
  * Parses user input.
@@ -50,13 +52,19 @@ public class Parser {
             return new AddCommandParser().parse(arguments);
 
         case EditCommand.COMMAND_WORD:
-            return new EditCommandParser().parse(arguments);
+            return new EditCommandParser().parse(arguments, false);
+
+        case EditCommand.COMMAND_WORD_REC:
+            return new EditCommandParser().parse(arguments, true);
 
         case SelectCommand.COMMAND_WORD:
             return new SelectCommandParser().parse(arguments);
 
         case DeleteCommand.COMMAND_WORD:
-            return new DeleteCommandParser().parse(arguments);
+            return new DeleteCommandParser().parse(arguments, false);
+
+        case DeleteCommand.COMMAND_WORD_REC:
+            return new DeleteCommandParser().parse(arguments, true);
 
         case ClearCommand.COMMAND_WORD:
             return new ClearCommand();
@@ -78,6 +86,12 @@ public class Parser {
 
         case PrioritizeCommand.COMMAND_WORD:
             return new PrioritizeCommandParser().parse(arguments);
+
+        case UndoCommand.COMMAND_WORD:
+            return new UndoCommand();
+
+        case RedoCommand.COMMAND_WORD:
+            return new RedoCommand();
 
         default:
             return new IncorrectCommand(MESSAGE_UNKNOWN_COMMAND);

@@ -4,6 +4,8 @@ import seedu.task.commons.core.Messages;
 import seedu.task.commons.core.UnmodifiableObservableList;
 import seedu.task.logic.commands.exceptions.CommandException;
 import seedu.task.model.task.ReadOnlyTask;
+import seedu.task.model.task.Task;
+import seedu.task.model.task.UniqueTaskList.DuplicateTaskException;
 import seedu.task.model.task.UniqueTaskList.TaskNotFoundException;
 
 /**
@@ -12,6 +14,7 @@ import seedu.task.model.task.UniqueTaskList.TaskNotFoundException;
 public class DeleteCommand extends Command {
 
     public static final String COMMAND_WORD = "delete";
+    public static final String COMMAND_WORD_REC = "deletethis";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD
             + ": Deletes the task identified by the index number used in the last task listing.\n"
@@ -21,12 +24,14 @@ public class DeleteCommand extends Command {
     public static final String MESSAGE_DELETE_TASK_SUCCESS = "Deleted Task: %1$s";
 
     public final int targetIndex;
+    public final boolean isSpecific;
 
-    public DeleteCommand(int targetIndex) {
+    public DeleteCommand(int targetIndex, boolean isSpecific) {
         this.targetIndex = targetIndex;
+        this.isSpecific = isSpecific;
     }
 
-
+    //@@author A0164212U
     @Override
     public CommandResult execute() throws CommandException {
 
@@ -37,13 +42,26 @@ public class DeleteCommand extends Command {
         }
 
         ReadOnlyTask taskToDelete = lastShownList.get(targetIndex - 1);
+        Task deleteOccurrence = null;
 
-        try {
-            model.deleteTask(taskToDelete);
-        } catch (TaskNotFoundException pnfe) {
-            assert false : "The target task cannot be missing";
+        if (isSpecific && taskToDelete.getOccurrences().size() > 1) {
+            Task taskToAdd = new Task(taskToDelete);
+            deleteOccurrence = Task.modifyOccurrence(taskToDelete);
+            try {
+                model.deleteThisTask(taskToDelete, taskToAdd);
+                return new CommandResult(String.format(MESSAGE_DELETE_TASK_SUCCESS, deleteOccurrence));
+            } catch (DuplicateTaskException e) {
+                throw new CommandException(AddCommand.MESSAGE_DUPLICATE_TASK);
+            } catch (TaskNotFoundException tnfe) {
+                assert false : "The target task cannot be missing";
+            }
+        } else {
+            try {
+                model.deleteTask(taskToDelete);
+            } catch (TaskNotFoundException tnfe) {
+                assert false : "The target task cannot be missing";
+            }
         }
-
         return new CommandResult(String.format(MESSAGE_DELETE_TASK_SUCCESS, taskToDelete));
     }
 
