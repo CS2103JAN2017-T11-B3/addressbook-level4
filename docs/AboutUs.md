@@ -31,6 +31,17 @@ Responsibilities: Storage, Git Expert
 <img src="images/whycaiji.jpg" width="150"><br>
 Role: Developer <br>
 Responsibilities: Logic and Scheduling and Tracking
+* Components in Charge of: [Logic](https://github.com/CS2103JAN2017-T11-B3/main/blob/master/docs/DeveloperGuide.md#23-logic-component) <br>
+* Features implemented:
+    * [Prioritize Command Worked with Jay to implement logic and model functionality](https://github.com/CS2103JAN2017-T11-B3/main/blob/master/docs/UserGuide.md#Allocate priority to a task: prioritize)
+    * [Complete Command](https://github.com/CS2103JAN2017-T11-B3/main/blob/master/docs/UserGuide.md#27-complete-a-task--complete)
+    * [Undo and Redo Command]()
+    * [deletethis and editthis command to manipulate specific occurrence of a recurring task](https://github.com/CS2103JAN2017-T11-B3/main/blob/master/docs/UserGuide.md#261-deleting-a-specific-instance-of-a-reccuring-task--deletethis)(https://github.com/CS2103JAN2017-T11-B3/main/blob/master/docs/UserGuide.md#241-editing-a-specific-instance-of-a-recurring-task--editthis)
+    * [Implemented adding floating tasks that do not require start/end date and time specifications](https://github.com/CS2103JAN2017-T11-B3/main/blob/master/docs/UserGuide.md#22-adding-a-task-add)
+* Code written: [[functional code](A0113795Y.md)][[test code](A0113795Y.md)]
+* Other major contributions:
+    * Did the initial refactoring for all commands code to fit into TaskList context
+    * Wrote JUnit tests for commands testing
 
 -----
 
