@@ -148,7 +148,7 @@ Examples:
   * `edithis 2 Go to 2103 Lecture`<br>
   Edits the description of task 2 (which is recurring)
 
-### 2.5. Finding all tasks containing any keyword in their name: `find`
+### 2.5. Finding all tasks containing any keyword: `find`
 
 Finds tasks whose TASK_NAME, PRIORITY, START_TIMEDATE, or END_TIMEDATE contain any of the given keywords.<br>
 Format 1: `find KEYWORD [MORE_KEYWORDS]`
@@ -157,7 +157,7 @@ Format 1: `find KEYWORD [MORE_KEYWORDS]`
 > * The order of the keywords does not matter. e.g. `do assignment to` will match `assignment to do`
 > * Only full words will be matched e.g. `assign` will not match `assignment`
 > * Task matching at least one keyword will be returned (i.e. `OR` search).
-    e.g. `assignment` will match `do algorithm assignment`
+> * Note: `find` does not search on a task's tags. e.g. `assignment` will match `do algorithm assignment`
 
 Examples:
 
