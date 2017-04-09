@@ -36,6 +36,8 @@ public class FindCommandTest extends AddressBookGuiTest {
         assertFindResult("find Meier", td.daniel);
         commandBox.runCommand("undo");
         assertFindResult("find Say", td.benson, td.daniel);
+        commandBox.runCommand("redo");
+        assertFindResult("find Meier", td.daniel);
     }
 
     @Test
