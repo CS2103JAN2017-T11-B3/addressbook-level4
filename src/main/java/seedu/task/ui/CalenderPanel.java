@@ -161,6 +161,8 @@ public class CalenderPanel extends UiPart<Region> {
     private Label day27;
     @FXML
     private Label day28;
+    @FXML
+    private Label year;
     private static final Logger logger = LogsCenter.getLogger(CalenderPanel.class);
     public CalenderPanel(AnchorPane calendertPlaceholder, ObservableList<ReadOnlyTask> taskList, int dDate, int dMonth,
             int dYear) {
@@ -266,6 +268,9 @@ public class CalenderPanel extends UiPart<Region> {
                             String test = String.valueOf(
                                     taskList.get(i).getOccurrences().get(k).getEndTiming().getTiming().getMonth() + 1
                                     );
+                            String taskDateYear = String.valueOf(
+                                    taskList.get(i).getOccurrences().get(k).getEndTiming().getTiming().getYear() + 1900
+                                    );
                             String taskDateMonth = String.valueOf(
                                     taskList.get(i).getOccurrences().get(k).getEndTiming().getTiming().getMonth() + 1
                                     );
@@ -274,9 +279,10 @@ public class CalenderPanel extends UiPart<Region> {
                                     );
 
 
-                            if ((taskDateMonth + "/" + taskDateDate).equals(labelDate)) {
+                            if (( taskDateDate + "/" + taskDateMonth).equals(labelDate) &&
+                                    taskDateYear.equals(year.getText())) {
                                 currentTaskList.getItems().addAll(taskList.get(i).getDescription().toString());
-
+                                System.out.println("@@");
                             }
                         }
                     }
@@ -333,6 +339,7 @@ public class CalenderPanel extends UiPart<Region> {
 
     private void setDate(int dDate, int dMonth, int dYear) {
         logger.info(" set Date ");
+
         SimpleDateFormat fmt = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         if (dDate != 0) {
@@ -362,6 +369,7 @@ public class CalenderPanel extends UiPart<Region> {
 
             firstDay.set(Calendar.DAY_OF_MONTH, dDate);
         }
+        year.setText(YEAR.format(date));
         Date firstDate;
         firstDate = firstDay.getTime();
 
@@ -385,8 +393,8 @@ public class CalenderPanel extends UiPart<Region> {
         int firstDateDate = Integer.valueOf(DATE.format(firstDate));
 
         for (int count = 1; count <= 28; count++) {
-            dayHashMap.get("day" + count).setText(Integer.toString(firstDateMonth)
-                    + "/" + Integer.toString(firstDateDate));
+            dayHashMap.get("day" + count).setText(Integer.toString(firstDateDate)
+                    + "/" + Integer.toString(firstDateMonth));
             firstDateDate++;
             if (firstDateMonth == 2 && firstDateDate > 29 && firstDateYear % 4 == 0) {
                 firstDateMonth += 1;
