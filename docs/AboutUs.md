@@ -74,7 +74,7 @@ Responsibilities: UI, Testing and Integeration
     * Change Calender Date
     * complete tag coloring
 * Other major contributions:
-    * fix some guitests,eg: addCommandTest,deleteCommandTest,listCommandTes,
+    * fix some guitests,eg: addCommandTest,deleteCommandTest,listCommandTest,
      to make the task manager pass travis test
     * User Interface Styling
 
