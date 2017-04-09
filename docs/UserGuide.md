@@ -4,11 +4,11 @@ By : `Team CS2103JAN2017-T11-B3`  &nbsp;&nbsp;&nbsp;&nbsp; Since: `Jan 2017`  &n
 
 ---
 
-1. [Quick Start](#quick-start)
-2. [Features](#features)
-3. [Notes on Recurring Tasks](#notes-on-recurring-tasks)
-4. [FAQ](#faq)
-5. [Command Summary](#command-summary)
+1. [Quick Start](#1-quick-start)
+2. [Features](#2-features)
+3. [Notes on Recurring Tasks](#3-notes-on-recurring-tasks)
+4. [FAQ](#4-faq)
+5. [Command Summary](#5-command-summary)
 
 ## 1. Quick Start
 
@@ -146,12 +146,12 @@ Examples:
   Examples:
 
   * `edithis 2 sd/01/01/2017`<br>
-  Edits the start date of task 2 (which is recurring)
+  Edits the start date of task 2 (which is reccuring)
 
   * `edithis 2 Go to 2103 Lecture`<br>
-  Edits the description of task 2 (which is recurring)
+  Edits the description of task 2 (which is reccuring)
 
-### 2.5. Finding all tasks containing any keyword: `find`
+### 2.5. Finding all tasks containing any keyword in their name: `find`
 
 Finds tasks whose TASK_NAME, PRIORITY, START_TIMEDATE, or END_TIMEDATE contain any of the given keywords.<br>
 Format 1: `find KEYWORD [MORE_KEYWORDS]`
@@ -160,7 +160,7 @@ Format 1: `find KEYWORD [MORE_KEYWORDS]`
 > * The order of the keywords does not matter. e.g. `do assignment to` will match `assignment to do`
 > * Only full words will be matched e.g. `assign` will not match `assignment`
 > * Task matching at least one keyword will be returned (i.e. `OR` search) e.g. `assignment` will match `do algorithm assignment`
-> * Note: `find` does not search on a task's tags 
+> * Note: `find` does not search on a task's tags
 
 Examples:
 
@@ -173,7 +173,7 @@ Examples:
   * `find 1`<br>
   Returns tasks with a priority of 1 (i.e. a HIGH priority).
 
-### 2.5.1. Finding an instance of a recurring task
+### 2.5.1. Finding an instance of a reccuring task
   > * Execute 'find' with the same syntax as above
   > * However, only one instance will show up in the list after executing 'list'
   > * The instance in 'list' will be updated to match the parameters after executing a valid 'find'
@@ -206,16 +206,16 @@ Examples:
   `delete 1`<br>
   Deletes the 1st task in the results of the `find` command.
 
-  ### 2.6.1. Deleting a specific instance of a recurring task : `deletethis`
+  ### 2.6.1. Deleting a specific instance of a reccuring task : `deletethis`
 
-  Deletes the specific occurrence of the recurring task from the list
+  Deletes the specific occurrence of the reccuring task from the list
   Format: `deletethis INDEX`
 
-  > * Deletes the specific occurrence of a recurring task at the specified INDEX
+  > * Deletes the specific occurrence of a reccuring task at the specified INDEX
   > * The index refers to the index  number shown in the most recent listing.<br>
   > * The index **must be a positive integer** 1, 2, 3, ...
   > * Upon deleting an instance, the task list will be updated with the next recent occurrence.
-    If there is no more occurrences, then the entire recurring task will be removed from the list.
+    If there is no more occurrences, then the entire reccuring task will be removed from the list.
   > * **Note:** Calling `deletethis` on a non-recurring task is supported - functionality is equivalent to
   calling `delete` on the same task.
 
@@ -315,11 +315,8 @@ Undo the previous change made to the task manager.
 Format: `undo`
 > * The undo command is able to undo all changes made after the application is opened.
 > * When there is nothing to undo, an error message will be shown.
-> * **Note:** `undo` only works in the same session (i.e. `exit`ing the application, then restarting it, and 
-> then calling `undo` will not restore changes made in the past session)
 
 Examples:
-
 * `undo`
 
 ### 2.14. Revert the previous undo change: `redo`
@@ -327,15 +324,9 @@ Examples:
 Revert the previous undo change to the task manager.
 Format: `redo`
 > * The redo command is able to redo multiple undos.
-> * If you call `undo`, make some changes, then call `redo`, the effect is no change since there is nothing to `redo`.
-> Essentially, `redo` must be called directly after an `undo`, else the logic does not make sense.
 
 Examples:
-
-* `undo`, `redo`
-Redo's the command which was just undone
-*`delete 1`, `undo`, `add floating task`, `redo`
-No change (nothing to `redo`)
+* `redo`
 
 ## 3. Notes on Recurring Tasks
 
@@ -357,11 +348,11 @@ the implementation of such tasks. A few things to note about how to use this fea
 ## 4. FAQ
 
 **Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous task list folder.<br><br>
+**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous task list folder.<br>
 **Q**: How do I change the calendar to view a different month?<br>
-**A**: Enter a date in the text field and click enter. The calendar will be updated with the new view.<br><br>
-**Q**: How do I undo changes made in a previous session?<br>
-**A**: Command history is cleared upon exiting Task Manager. Thus, does changes cannot be undone.<br><br> 
+**A**: Enter a date in the text field and click enter. The calendar will be updated with the new view.
+**Q**: How do I undo changes made in a previous session?
+**A**: Unfortunately, command history is cleared upon exiting Task Manager. So, you won't be able to undo those changes. Sorry!
 
 ## 5. Command Summary
 
