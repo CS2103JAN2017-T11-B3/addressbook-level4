@@ -6,8 +6,8 @@ import seedu.task.commons.util.CollectionUtil;
 import seedu.task.model.tag.UniqueTagList;
 
 /**
- * Stores the details to edit the person with. Each non-empty field value will replace the
- * corresponding field value of the person.
+ * Stores the details to edit the task with. Each non-empty field value will replace the
+ * corresponding field value of the task.
  */
 
 public class EditTaskDescriptor {
@@ -15,7 +15,10 @@ public class EditTaskDescriptor {
     private Optional<Priority> priority = Optional.empty();
     private Optional<Timing> startTiming = Optional.empty();
     private Optional<Timing> endTiming = Optional.empty();
+    private Optional<Boolean> recurring = Optional.empty();
     private Optional<UniqueTagList> tags = Optional.empty();
+    private Optional<RecurringFrequency> frequency = Optional.empty();
+
 
     public EditTaskDescriptor() {}
 
@@ -25,6 +28,8 @@ public class EditTaskDescriptor {
         this.startTiming = toCopy.getStartTiming();
         this.endTiming = toCopy.getEndTiming();
         this.tags = toCopy.getTags();
+        this.recurring = toCopy.isRecurring();
+        this.frequency = toCopy.getFrequency();
     }
 
     /**
@@ -32,7 +37,7 @@ public class EditTaskDescriptor {
      */
     public boolean isAnyFieldEdited() {
         return CollectionUtil.isAnyPresent(this.description, this.priority,
-                                      this.startTiming, this.endTiming, this.tags);
+                this.startTiming, this.endTiming, this.tags, this.frequency);
     }
 
     public void setDescription(Optional<Description> description) {
@@ -79,5 +84,22 @@ public class EditTaskDescriptor {
 
     public Optional<UniqueTagList> getTags() {
         return tags;
+    }
+
+    public void setRecurring(Optional<Boolean> recurring) {
+        assert recurring != null;
+        this.recurring = recurring;
+    }
+
+    public Optional<Boolean> isRecurring() {
+        return recurring;
+    }
+
+    public Optional<RecurringFrequency> getFrequency() {
+        return frequency;
+    }
+
+    public void setFrequency(Optional<RecurringFrequency> frequency) {
+        this.frequency = frequency;
     }
 }

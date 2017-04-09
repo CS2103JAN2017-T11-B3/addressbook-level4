@@ -1,5 +1,7 @@
 package seedu.task.storage;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Optional;
 
@@ -40,5 +42,25 @@ public interface TaskListStorage {
      * @see #saveTaskList(ReadOnlyTaskList)
      */
     void saveTaskList(ReadOnlyTaskList taskList, String filePath) throws IOException;
+
+    //@@author A0163559U
+    /**
+     * Copies the current save state of the Task Manager into a new location
+     * @param taskList is the state to be copied
+     * @param newFile is the new save location
+     * @throws IOException if file operations fail
+     */
+    void saveTaskListInNewLocation(ReadOnlyTaskList taskList, File newFile) throws IOException;
+
+    /**
+     * Loads saved state of Task Manager from specified location
+     * @param loadFile is the file to load state from
+     * @return new loaded task list, if successful
+     * @throws DataConversionException if data conversion fails
+     * @throws FileNotFoundException if file operation fails
+     */
+    Optional<ReadOnlyTaskList> loadTaskListFromNewLocation(File loadFile)
+            throws FileNotFoundException, DataConversionException;
+    //@@author
 
 }

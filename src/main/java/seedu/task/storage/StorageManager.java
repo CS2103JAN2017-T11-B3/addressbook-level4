@@ -1,5 +1,7 @@
 package seedu.task.storage;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Optional;
 import java.util.logging.Logger;
@@ -62,6 +64,7 @@ public class StorageManager extends ComponentManager implements Storage {
     @Override
     public Optional<ReadOnlyTaskList> readTaskList(String filePath) throws DataConversionException, IOException {
         logger.fine("Attempting to read data from file: " + filePath);
+        System.out.println("Attempting to read data from file: " + filePath);
         return taskListStorage.readTaskList(filePath);
     }
 
@@ -74,7 +77,38 @@ public class StorageManager extends ComponentManager implements Storage {
     public void saveTaskList(ReadOnlyTaskList taskList, String filePath) throws IOException {
         logger.fine("Attempting to write to data file: " + filePath);
         taskListStorage.saveTaskList(taskList, filePath);
+
     }
+
+    //@@author A0163559U
+    @Override
+    /**
+     * Saves current state of task list in new location.
+     */
+    public void saveTaskListInNewLocation(ReadOnlyTaskList taskList, File newFile) throws IOException {
+        logger.fine("Attempting to copy task manager data to file: " + newFile.toString());
+        taskListStorage.saveTaskListInNewLocation(taskList, newFile);
+    }
+
+    @Override
+    /**
+     * Attempts to load a stored task list into the task manager.
+     */
+    public Optional<ReadOnlyTaskList> loadTaskListFromNewLocation(File loadFile)
+            throws FileNotFoundException, DataConversionException {
+        logger.fine("Attempting to load task manager data from file: " + loadFile.toString());
+        return taskListStorage.loadTaskListFromNewLocation(loadFile);
+    }
+
+    /**
+     * Updates internal state data as storage support.
+     * @param file File to update state
+     */
+    public void updateXmlTaskListStorage(File file) {
+        XmlTaskListStorage xmlTaskListStorage = (XmlTaskListStorage) taskListStorage;
+        xmlTaskListStorage.updateState(file);;
+    }
+    //@@author
 
 
     @Override
@@ -87,5 +121,6 @@ public class StorageManager extends ComponentManager implements Storage {
             raise(new DataSavingExceptionEvent(e));
         }
     }
+
 
 }

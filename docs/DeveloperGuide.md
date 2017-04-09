@@ -1,14 +1,14 @@
-# AddressBook Level 4 - Developer Guide
+# TaskList - Developer Guide
 
 By : `CS2103JAN2017-T11-B3`  &nbsp;&nbsp;&nbsp;&nbsp; Since: `Feb 2017`  &nbsp;&nbsp;&nbsp;&nbsp; Licence: `MIT`
 
 ---
 
-1. [Setting Up](#setting-up)
-2. [Design](#design)
-3. [Implementation](#implementation)
-4. [Testing](#testing)
-5. [Dev Ops](#dev-ops)
+1. [Setting Up](#1-setting-up)
+2. [Design](#2-design)
+3. [Implementation](#3-implementation)
+4. [Testing](#4-testing)
+5. [Dev Ops](#5-dev-ops)
 
 * [Appendix A: User Stories](#appendix-a--user-stories)
 * [Appendix B: Use Cases](#appendix-b--use-cases)
@@ -51,7 +51,7 @@ By : `CS2103JAN2017-T11-B3`  &nbsp;&nbsp;&nbsp;&nbsp; Since: `Feb 2017`  &nbsp;&
 ### 1.3. Configuring Checkstyle
 1. Click `Project` -> `Properties` -> `Checkstyle` -> `Local Check Configurations` -> `New...`
 2. Choose `External Configuration File` under `Type`
-3. Enter an arbitrary configuration name e.g. addressbook
+3. Enter an arbitrary configuration name e.g. tasklist
 4. Import checkstyle configuration file found at `config/checkstyle/checkstyle.xml`
 5. Click OK once, go to the `Main` tab, use the newly imported check configuration.
 6. Tick and select `files from packages`, click `Change...`, and select the `resources` package
@@ -83,9 +83,6 @@ _Figure 2.1.1 : Architecture Diagram_
 The **_Architecture Diagram_** given above explains the high-level design of the App.
 Given below is a quick overview of each component.
 
-> Tip: The `.pptx` files used to create diagrams in this document can be found in the [diagrams](diagrams/) folder.
-> To update a diagram, modify the diagram in the pptx file, select the objects of the diagram, and choose `Save as picture`.
-
 `Main` has only one class called [`MainApp`](../src/main/java/seedu/task/MainApp.java). It is responsible for,
 
 * At app launch: Initializes the components in the correct sequence, and connects them up with each other.
@@ -110,25 +107,23 @@ Each of the four components
 * Defines its _API_ in an `interface` with the same name as the Component.
 * Exposes its functionality using a `{Component Name}Manager` class.
 
-For example, the `Logic` component (see the class diagram given below) defines it's API in the `Logic.java`
+For example, the `Logic` component (see the class diagram given in section 2.3) defines it's API in the `Logic.java`
 interface and exposes its functionality using the `LogicManager.java` class.<br>
-<img src="images/LogicClassDiagram.png" width="800"><br>
-_Figure 2.1.2 : Class Diagram of the Logic Component_
 
 #### Events-Driven nature of the design
 
 The _Sequence Diagram_ below shows how the components interact for the scenario where the user issues the
 command `delete 1`.
 
-<img src="images\SDforDeletePerson.png" width="800"><br>
+<img src="images\SDforDeleteTask.png" width="800"><br>
 _Figure 2.1.3a : Component interactions for `delete 1` command (part 1)_
 
->Note how the `Model` simply raises a `AddressBookChangedEvent` when the Address Book data are changed,
+>Note how the `Model` simply raises a `TaskListChangedEvent` when the Task List data are changed,
  instead of asking the `Storage` to save the updates to the hard disk.
 
 The diagram below shows how the `EventsCenter` reacts to that event, which eventually results in the updates
 being saved to the hard disk and the status bar of the UI being updated to reflect the 'Last Updated' time. <br>
-<img src="images\SDforDeletePersonEventHandling.png" width="800"><br>
+<img src="images\SDforDeleteTaskEventHandling.png" width="800"><br>
 _Figure 2.1.3b : Component interactions for `delete 1` command (part 2)_
 
 > Note how the event is propagated through the `EventsCenter` to the `Storage` and `UI` without `Model` having
@@ -139,15 +134,15 @@ The sections below give more details of each component.
 
 ### 2.2. UI component
 
-Author: Alice Bee
+Author: Yu Cheng-Liang
 
 <img src="images/UiClassDiagram.png" width="800"><br>
 _Figure 2.2.1 : Structure of the UI Component_
 
 **API** : [`Ui.java`](../src/main/java/seedu/task/ui/Ui.java)
 
-The UI consists of a `MainWindow` that is made up of parts e.g.`CommandBox`, `ResultDisplay`, `PersonListPanel`,
-`StatusBarFooter`, `BrowserPanel` etc. All these, including the `MainWindow`, inherit from the abstract `UiPart` class.
+The UI consists of a `MainWindow` that is made up of parts e.g.`CommandBox`, `ResultDisplay`, `TaskListPanel`,
+`StatusBarFooter`, `CalendarPanel` etc. All these, including the `MainWindow`, inherit from the abstract `UiPart` class.
 
 The `UI` component uses JavaFx UI framework. The layout of these UI parts are defined in matching `.fxml` files
  that are in the `src/main/resources/view` folder.<br>
@@ -159,6 +154,12 @@ The `UI` component,
 * Executes user commands using the `Logic` component.
 * Binds itself to some data in the `Model` so that the UI can auto-update when data in the `Model` change.
 * Responds to events raised from various parts of the App and updates the UI accordingly.
+* uses `Singleton` pattern as its design pattern. Since we do not want the user interface to look complex, for each UI object such as
+  commandbox,resultbox,tasklistview and Calender, our UI just has one copy for each of them.
+<br><br><img src="images/UiDraft.png" width="600"><br>
+This is the initial draft for the calender
+<br><br><img src="images/Ui.png" width="600"><br>
+This is the final implementation for the calender
 
 ### 2.3. Logic component
 
@@ -169,15 +170,30 @@ _Figure 2.3.1 : Structure of the Logic Component_
 
 **API** : [`Logic.java`](../src/main/java/seedu/task/logic/Logic.java)
 
-1. `Logic` uses the `Parser` class to parse the user command.
-2. This results in a `Command` object which is executed by the `LogicManager`.
-3. The command execution can affect the `Model` (e.g. adding a person) and/or raise events.
-4. The result of the command execution is encapsulated as a `CommandResult` object which is passed back to the `Ui`.
+* `Logic` uses the `Parser` class to parse the user command.
+* This results in a `Command` object which is executed by the `LogicManager`.
+* The command execution can affect the `Model` (e.g. adding a task) and/or raise events.
+* The result of the command execution is encapsulated as a `CommandResult` object which is passed back to the `Ui`.
 
 Given below is the Sequence Diagram for interactions within the `Logic` component for the `execute("delete 1")`
  API call.<br>
-<img src="images/DeletePersonSdForLogic.png" width="800"><br>
+<img src="images/DeleteTaskSdForLogic.png" width="800"><br>
 _Figure 2.3.1 : Interactions Inside the Logic Component for the `delete 1` Command_
+
+Author: Jay Kabra
+
+* The logic behind how to edit a specifc instance of a recurring task is as follows:
+  * The `Parser` recognizes the `editthis` command to delete the occurrence of the selected task
+  from the encapsulated list of RecuirringTaskOccurrence objects (refer to the Model section to see the
+  precise architecture of implementing recurring tasks).
+  * A new task is subsequently instantiated (with its own description, priority, etc. parameters) and added
+  to the underlying Task list. Then the edit parameters are applied to this newly instantianted task.
+
+* The logic behind how to delete a specific instance of a recurring task is as follows:
+  * The `Parser` recognizes the `deletethis` command and subsequently removes the entire task from the list.
+  * Subsequently, it intantiates a new Recurring Task using shared logic with editthis and then adds the
+  recurring task back to the list with the specific instance removed. The effect for the user is a deletetion
+  of a particular recurring task instance.
 
 ### 2.4. Model component
 
@@ -190,11 +206,22 @@ _Figure 2.4.1 : Structure of the Model Component_
 
 The `Model`,
 
-* stores a `UserPref` object that represents the user's preferences.
-* stores the Task List data.
-* exposes a `UnmodifiableObservableList<ReadOnlyTask>` that can be 'observed' e.g. the UI can be bound to this list
+* Stores a `UserPref` object that represents the user's preferences.
+* Stores the Task List data.
+* Exposes a `UnmodifiableObservableList<ReadOnlyTask>` that can be 'observed' e.g. the UI can be bound to this list
   so that the UI automatically updates when the data in the list change.
-* does not depend on any of the other three components.
+* Does not depend on any of the other three components.
+* Defines recurring tasks in the following way:
+  * Class `RecurringTaskOccurrence` encapsulates 2 Timing objects (start & end times) and a boolean to indicate if
+  the occurrence is complete.
+  * Class `Task` encapsulates a list of `RecurringTaskOccurrence` objects. In addition, it also encapsulates a
+  `description`, `priority`, `frequency`, and `UniqueTagList` object for the respective task. Each of these fields is
+  constructed as an object in the backend of the application.
+  * This architecture follows the use of the Abstraction Occurrence Pattern by sharing common fields between
+  instances of the same underlying object in a parent class.
+    * If tasks are recurring then their start/end times are populated based on the given frequency parameter which are
+  subsequently utilized to generate the respective Task's `RecurringTaskOccurrence` objects.
+
 
 ### 2.5. Storage component
 
@@ -209,6 +236,14 @@ The `Storage` component,
 
 * can save `UserPref` objects in json format and read it back.
 * can save the Task List data in xml format and read it back.
+* can save Task List data from any properly formatted file.
+* can load Task List data from any properly formatted file.
+<br>
+> The storage component is an example of the singleton design principle because there is only one instance of Storage, accessible through the MainApp class.
+
+> The storage component interacts with the logic component during the load and save command. Here, the load or save command attempts to update the save location for internal storage. In the case of a load command, the logic component makes a save requeset to the storage component. The storage component replies with a notice of either success or failure, since sometimes file operations will fail.
+
+> Adding functionality which allows for saving task data in a new location exemplifies the Open Close principle, because its implementation only added new functions to meet this need, instead of changing existing ones. The Open Close principle states that software should be open to extensions but closed to modifications.
 
 ### 2.6. Common classes
 
@@ -237,9 +272,19 @@ and logging destinations.
 
 ### 3.2. Configuration
 
+Author: Tyler Rocha
+
 Certain properties of the application can be controlled (e.g App name, logging level) through the configuration file
 (default: `config.json`):
 
+The config.json file contains several attributes:
+* `appTitle` is the name of the application
+* `logLevel` is the default level for the logger
+* `userPrefsFilePath` is the file path to the user preferences file
+* `taskManagerFilePath` is the file path to the task manager save data
+* `taskManagerName` is the name of the task manager application
+
+`taskManagerFilePath` is manipulated automatically when a successful `save` or `load` command is executed. When this occurs, `taskManagerFilePath` is updated to the user-specified file location, and this location becomes the default for future Task Manager sessions.
 
 ## 4. Testing
 
@@ -383,19 +428,19 @@ Priority | As a ... | I want to ... | So that I can...
 
 ## Appendix B : Use Cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+(For all use cases below, the **System** is the `TaskList` and the **Actor** is the `user`, unless specified otherwise)
 
 #### Use case: Create task
 
 **MSS**
 
 1. User requests to create a task with a name
-2. TaskManager create the task <br>
+2. Task Manager create the task <br>
 Use case ends.
 
 **Extensions**
 
-2a. The taske with the name given by the user already exist
+2a. The task with the name given by the user already exists
 > Use case ends
 
 #### Use case: Delete task
@@ -403,9 +448,9 @@ Use case ends.
 **MSS**
 
 1. User requests to list tasks
-2. TaskManager shows a list of tasks
+2. Task Manager shows a list of tasks
 3. User requests to delete a specific task in the list
-4. TaskManager deletes the task <br>
+4. Task Manager deletes the task <br>
 Use case ends.
 
 **Extensions**
@@ -416,18 +461,17 @@ Use case ends.
 
 3a. The given index is invalid
 
-> 3a1. TaskManager shows an error message <br>
+> 3a1. Task Manager shows an error message <br>
   Use case resumes at step 2
 
 #### Use case: Edit/Update task
 
 **MSS**
 
-1. User requests to search for a task with a given name
-2. TaskManager shows the task
-3. User type in the change
-4. User requests to update/edit the task
-5. TaskManager change the content of the task
+1. User searches for a task with a given name
+2. Task Manager shows the task
+3. User requests to update/edit the task
+4. Task Manager changes the content of the task <br>
 Use case ends.
 
 **Extensions**
@@ -438,7 +482,7 @@ Use case ends.
 
 4a. The given index is invalid
 
-> 3a1. AddressBook shows an error message <br>
+> 4a1. TaskList shows an error message <br>
   Use case resumes at step 3
 
 #### Use case: Read task
@@ -446,7 +490,7 @@ Use case ends.
 **MSS**
 
 1. User requests to search for a task with a given name
-2. TaskManager shows the task
+2. Task Manager shows the task <br>
 Use case ends.
 
 **Extensions**
@@ -460,10 +504,9 @@ Use case ends.
 **MSS**
 
 1. User requests to search for a task with a given name
-2. TaskManager shows the task
+2. Task Manager shows the task
 3. User type in the index of the task he/she wants to mark as complete
-3. User request to complete a task
-4. TaskManager marks the task as completed
+4. Task Manager marks the task as completed <br>
 Use case ends.
 
 **Extensions**
@@ -474,7 +517,7 @@ Use case ends.
 
 3a. The given index is invalid
 
-> 3a1. TaskManager shows an error message <br>
+> 3a1. Task Manager shows an error message <br>
   Use case resumes at step 3
 
 #### Use case: List all task
@@ -482,30 +525,62 @@ Use case ends.
 **MSS**
 
 1. User requests to list all tasks
-2. TaskManager shows all the tasks
+2. Task Manager shows all the tasks <br>
 Use case ends.
-
-**Extensions**
-
-2a. no tasks exist
->  2a1. TaskManager shows an error message
-   Use case ends
 
 #### Use case: List a task
 
 **MSS**
 
 1. User type in the index of the task
-2. User request to see the content of the task
-3. TaskManager shows the content of the task
+2. Task Manager shows the content of the task <br>
 Use case ends.
 
 **Extensions**
 
 2a. The task does not exist
-> 2a1. TaskManager shows an error message
-  Use case resumes at step 1
-{More to be added}
+> 2a1. Task Manager shows an error message
+> Use case resumes at step 1
+
+#### Use case: Save tasks to file
+
+**MSS**
+
+1. User types file location
+2. Task Manager saves tasks in specified save file <br>
+Use case ends.
+
+**Extensions**
+
+2a. The file path does not exist
+> 2a1. Task Manager shows an error message
+> Use case ends.
+
+2b. The file path does not end with a file name
+> 2b1. Task Manager shows an error message
+> Use case ends.
+
+#### Use case: Load tasks from file
+
+**MSS**
+
+1. User types file location
+2. Task Manager loads task data from load file <br>
+Use case ends.
+
+**Extensions**
+
+2a. The file does not exist
+> 2a1. Task Manager shows an error message
+> Use case ends.
+
+2b. The file path does not end with a file name
+> 2b1. Task Manager shows an error message
+> Use case ends.
+
+3c. The load file has an invalid format.
+> 3c1. Task Manager shows an error message
+> Use case ends.
 
 
 ## Appendix C : Non Functional Requirements
@@ -515,18 +590,16 @@ Use case ends.
 3. A user with above average typing speed for regular English text (i.e. not code, not system admin commands)
    should be able to accomplish most of the tasks faster using commands than using the mouse.
 4. Should be open source.
-6. Should open the app in less than 5 sec.
-7. The GUI should not be overcrowded.
-8. If the input data's format changes, the developers should be able to make needed adjustments in <20 hours.
-9. A user can install and operate the program without assistance of any kind (except consulting the User Guide Documentation).
-10. The level of security will be minimal for this product since it is only accessed by a single user.
-11. To extend the software, proper security measures can be put into place in <100 hours.
-12. Aesthetics of the calendar GUI should be sleek and appealing to 90% of users.
-13. Should be scalable so that a user can change the layout of the GUI based on personal preference.
-14. Should not overload the CPU so that other running process start to lag.
-15. Should not have seperate administrative functions as there is one user who is the Admin by default.
-
-{More to be added}
+5. Should open the app in less than 5 sec.
+6. If the input data's format changes, the developers should be able to make needed adjustments in <20 hours.
+7. A user can install and operate the program without assistance of any kind (except consulting the User Guide Documentation).
+8. To extend the software, proper security measures can be put into place in <100 hours.
+9. Aesthetics of the calendar GUI should be sleek and appealing to 90% of users.
+10. Should be scalable so that a user can change the layout of the GUI based on personal preference.
+11. CPU usage should not exceed 10%.
+12. Support tasks that recur after a specified number of years for 4 years.
+13. Support tasks that recur after a specified number of months for 12 months (1 year).
+14. Support tasks that recur after a specified number of days for 60 days (2 months).
 
 ## Appendix D : Glossary
 
@@ -539,7 +612,6 @@ Use case ends.
 > A contact detail that is not meant to be shared with others
 
 ## Appendix E : Product Survey
-
 
 **Google Calendar**
 
@@ -562,7 +634,8 @@ Cons:
 
 **Google Tasks**
 
-Author:Google
+Author: Yu Cheng-Liang
+
 Pros:
 * easy to use
 * have all the basic functions a normal user would use.
@@ -572,4 +645,32 @@ Cons:
 * cannot change the color of tasks based on priority
 * alert would not pop out automatically
 * everytime I boot up my computer, I have to open the app manually
+
+**Wunderlist**
+
+Author: Tyler Rocha
+
+Pros:
+* Allows collaboration with friends and family
+* Supports due dates and reminders
+* Accessible from phone, tablet and laptop
+
+Cons:
+* Free account has limited options
+* Needs to be downloaded
+* Paying for more features is expensive
+
+**Hitask**
+
+Author: Wu Heyang
+
+Pros:
+* Focus on team collaboration
+* Clean user interface
+* Calendar syncs with Google
+
+Cons:
+* Free trial only
+* Premium is expensive and a monthly expense
+* Lots of features can be overwhelming
 

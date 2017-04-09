@@ -4,13 +4,19 @@ package seedu.task.model.task;
 import seedu.task.commons.exceptions.IllegalValueException;
 
 /**
- * Represents a Task's priority number in the address book.
+ * Represents a Task's priority number in the Task Manager.
  * A smaller priority number indicates a higher priority.
  * Guarantees: immutable; is valid as declared in {@link #isValidPriority(String)}
  */
 public class Priority implements Comparable<Priority> {
 
     public static final String MESSAGE_PRIORITY_CONSTRAINTS = "Task priority should be between 1-3";
+    public static final String PRIORITY_HIGH = "1";
+    public static final String PRIORITY_MEDIUM = "2";
+    public static final String PRIORITY_LOW = "3";
+    public static final String PRIORITY_HIGH_COLOR = "red";
+    public static final String PRIORITY_MEDIUM_COLOR = "darkorange";
+    public static final String PRIORITY_LOW_COLOR = "yellow";
 
     public final String value;
 
@@ -19,7 +25,7 @@ public class Priority implements Comparable<Priority> {
     /**
      * Validates given priority number.
      *
-     * @throws IllegalValueException if given phone string is invalid.
+     * @throws IllegalValueException if given priority string is invalid.
      */
     public Priority(String priority) throws IllegalValueException {
         if (priority != null) {
@@ -29,7 +35,7 @@ public class Priority implements Comparable<Priority> {
             }
             this.value = trimmedPriority;
         } else {
-            this.value = "3";
+            this.value = PRIORITY_LOW;
         }
 
         setPriorityColor(this.value);
@@ -39,7 +45,7 @@ public class Priority implements Comparable<Priority> {
      * Returns true if a given string is a valid task priority.
      */
     public static boolean isValidPriority(String test) {
-        return (test.equals("1") || test.equals("2") || test.equals("3"));
+        return (test.equals(PRIORITY_HIGH) || test.equals(PRIORITY_MEDIUM) || test.equals(PRIORITY_LOW));
     }
 
     @Override
@@ -51,7 +57,7 @@ public class Priority implements Comparable<Priority> {
     public boolean equals(Object other) {
         return other == this // short circuit if same object
                 || (other instanceof Priority // instanceof handles nulls
-                && this.value.equals(((Priority) other).value)); // state check
+                        && this.value.equals(((Priority) other).value)); // state check
     }
 
     @Override
@@ -65,21 +71,22 @@ public class Priority implements Comparable<Priority> {
 
     public void setPriorityColor(String priorityValue) {
         switch(priorityValue) {
-        case "1":
-            priorityColor = "red";
+        case PRIORITY_HIGH:
+            priorityColor = PRIORITY_HIGH_COLOR;
             break;
-        case "2":
-            priorityColor = "darkorange";
+        case PRIORITY_MEDIUM:
+            priorityColor = PRIORITY_MEDIUM_COLOR;
             break;
-        case "3":
-            priorityColor = "yellow";
+        case PRIORITY_LOW:
+            priorityColor = PRIORITY_LOW_COLOR;
             break;
         default:
-            priorityColor = "yellow";
+            priorityColor = PRIORITY_LOW_COLOR;
             break;
         }
     }
 
+    //@@author A0163559U
     /**
      * Results in Priority sorted in ascending order.
      */
@@ -89,5 +96,6 @@ public class Priority implements Comparable<Priority> {
         int otherValue = Integer.parseInt(comparePriority.value);
         return thisValue - otherValue;
     }
+    //@@author
 
 }

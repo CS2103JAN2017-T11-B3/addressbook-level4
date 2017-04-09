@@ -1,3 +1,4 @@
+//@@author A0113795Y
 package seedu.task.logic.commands;
 
 import java.util.ArrayList;
@@ -5,7 +6,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
+import java.util.logging.Logger;
 
+import seedu.task.commons.core.LogsCenter;
 import seedu.task.commons.core.Messages;
 import seedu.task.commons.core.UnmodifiableObservableList;
 import seedu.task.commons.exceptions.IllegalValueException;
@@ -16,6 +19,7 @@ import seedu.task.model.task.Description;
 import seedu.task.model.task.EditTaskDescriptor;
 import seedu.task.model.task.Priority;
 import seedu.task.model.task.ReadOnlyTask;
+import seedu.task.model.task.RecurringFrequency;
 import seedu.task.model.task.Task;
 import seedu.task.model.task.Timing;
 import seedu.task.model.task.UniqueTaskList;
@@ -25,7 +29,7 @@ import seedu.task.model.task.UniqueTaskList;
  */
 
 public class CompleteCommand extends Command {
-
+    private static final Logger logger = LogsCenter.getLogger(CompleteCommand.class);
     public static final String COMMAND_WORD = "complete";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Mark the task identified by the index number."
@@ -37,6 +41,8 @@ public class CompleteCommand extends Command {
     public static final String MESSAGE_DUPLICATE_TAG = "This tag already exists in the tag list";
     public static final String MESSAGE_DUPLICATE_TASK = "This task already exists in the task manager.";
     public static final String MESSAGE_TAG_CONSTRAINTS = "Tags names should be alphanumeric";
+    public static final String MESSAGE_NULL_TIMING =
+            "Both the start and end timings must be specified for a recurring task";
 
     public final int targetIndex;
     public final EditTaskDescriptor completeTaskDescriptor;
@@ -55,27 +61,47 @@ public class CompleteCommand extends Command {
             e.printStackTrace();
         }
     }
+    //@@author
 
+    //@@author A0164212U
     @Override
     public CommandResult execute() throws CommandException {
-
         UnmodifiableObservableList<ReadOnlyTask> lastShownList = model.getFilteredTaskList();
         if (lastShownList.size() <= targetIndex) {
             throw new CommandException(Messages.MESSAGE_INVALID_TASK_DISPLAYED_INDEX);
         }
 
         ReadOnlyTask taskToComplete = lastShownList.get(targetIndex);
-        Task completedTask = createCompletedTask(taskToComplete, completeTaskDescriptor);
+        Task newTask = null;
+        Task completedTask;
 
         try {
-            model.updateTask(targetIndex, completedTask);
+            if (taskToComplete.isRecurring()) {
+                newTask = Task.extractOccurrence(taskToComplete);
+                model.addTask(newTask);
+                completedTask = createCompletedTask(newTask, completeTaskDescriptor);
+                int newIndex = model.getFilteredTaskList().indexOf(newTask);
+                completedTask.setComplete();
+                model.updateTask(newIndex, completedTask);
+                model.updateFilteredListToShowAll();
+                logger.info(MESSAGE_COMPLETE_TASK_SUCCESS);
+                return new CommandResult(String.format(MESSAGE_COMPLETE_TASK_SUCCESS, newTask));
+            } else {
+                completedTask = createCompletedTask(taskToComplete, completeTaskDescriptor);
+                completedTask.setComplete();
+                model.updateTask(targetIndex, completedTask);
+                model.updateFilteredListToShowAll();
+                logger.info(MESSAGE_COMPLETE_TASK_SUCCESS);
+                return new CommandResult(String.format(MESSAGE_COMPLETE_TASK_SUCCESS, taskToComplete));
+            }
         } catch (UniqueTaskList.DuplicateTaskException dpe) {
             throw new CommandException(MESSAGE_DUPLICATE_TASK);
+        } catch (IllegalValueException e) {
+            throw new CommandException(MESSAGE_NULL_TIMING);
         }
-        model.updateFilteredListToShowAll();
-        return new CommandResult(String.format(MESSAGE_COMPLETE_TASK_SUCCESS, taskToComplete));
     }
-
+    //@@author
+    //@@author A0113795Y
     /**
      * Creates and returns a {@code Task} with the details of {@code taskToComplete}
      * edited with {@code editTaskDescriptor}.
@@ -87,11 +113,23 @@ public class CompleteCommand extends Command {
         Description updatedDescription = editTaskDescriptor.getDescription().orElseGet(taskToComplete::getDescription);
         Priority updatedPriority = editTaskDescriptor.getPriority().orElseGet(taskToComplete::getPriority);
         Timing updatedStartDate = editTaskDescriptor.getStartTiming().orElseGet(taskToComplete::getStartTiming);
-        Timing updatedEndDate = editTaskDescriptor.getEndTiming().orElseGet(taskToComplete::getStartTiming);
+        Timing updatedEndDate = editTaskDescriptor.getEndTiming().orElseGet(taskToComplete::getEndTiming);
         UniqueTagList updatedTags = editTaskDescriptor.getTags().orElseGet(taskToComplete::getTags);
+        boolean updatedRecurring = editTaskDescriptor.isRecurring().orElseGet(taskToComplete::isRecurring);
+        RecurringFrequency updatedFrequency = editTaskDescriptor.getFrequency().orElseGet(taskToComplete::getFrequency);
 
+        updatedStartDate.setTiming(updatedStartDate.toString());
+        updatedEndDate.setTiming(updatedEndDate.toString());
 
-        return new Task(updatedDescription, updatedPriority, updatedStartDate, updatedEndDate, updatedTags);
+        Task ret;
+        try {
+            ret = new Task(updatedDescription, updatedPriority, updatedStartDate,
+                    updatedEndDate, updatedTags, updatedRecurring, updatedFrequency);
+        } catch (IllegalValueException e) {
+            throw new CommandException(MESSAGE_NULL_TIMING);
+        }
+        ret.setComplete();
+        return ret;
     }
 
     /**

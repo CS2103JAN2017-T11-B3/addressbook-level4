@@ -1,5 +1,6 @@
 package seedu.task.ui;
 
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
@@ -34,7 +35,6 @@ public class MainWindow extends UiPart<Region> {
 
     // Independent Ui parts residing in this Ui container
     private CalenderPanel calenderPanel;
-    private BrowserPanel browserPanel;
     private PersonListPanel personListPanel;
     private Config config;
 
@@ -78,6 +78,11 @@ public class MainWindow extends UiPart<Region> {
         setAccelerators();
     }
 
+    public void updateCalender(ObservableList<ReadOnlyTask> taskList
+            , int dDate , int dMonth , int dYear) {
+        calenderPanel = new CalenderPanel(calenderPlaceholder, taskList , dDate , dMonth , dYear);
+    }
+
     public Stage getPrimaryStage() {
         return primaryStage;
     }
@@ -117,12 +122,11 @@ public class MainWindow extends UiPart<Region> {
     }
 
     void fillInnerParts() {
-        calenderPanel = new CalenderPanel(calenderPlaceholder);
-//      browserPanel = new BrowserPanel(browserPlaceholder);
-        personListPanel = new PersonListPanel(getPersonListPlaceholder(), logic.getFilteredPersonList());
+        calenderPanel = new CalenderPanel(calenderPlaceholder, logic.getFilteredTaskList() , 0 , 0 , 0);
+        personListPanel = new PersonListPanel(getPersonListPlaceholder() , logic.getFilteredTaskList());
         new ResultDisplay(getResultDisplayPlaceholder());
-        new StatusBarFooter(getStatusbarPlaceholder(), config.getAddressBookFilePath());
-        new CommandBox(getCommandBoxPlaceholder(), logic);
+        new StatusBarFooter(getStatusbarPlaceholder(), config.getTaskManagerFilePath());
+        new CommandBox(getCommandBoxPlaceholder(), logic , this);
     }
 
     private AnchorPane getCommandBoxPlaceholder() {
@@ -202,14 +206,6 @@ public class MainWindow extends UiPart<Region> {
 
     public PersonListPanel getPersonListPanel() {
         return this.personListPanel;
-    }
-
-    void loadPersonPage(ReadOnlyTask person) {
-        browserPanel.loadPersonPage(person);
-    }
-
-    void releaseResources() {
-        browserPanel.freeResources();
     }
 
 }

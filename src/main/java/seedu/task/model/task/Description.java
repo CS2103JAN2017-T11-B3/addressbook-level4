@@ -5,19 +5,21 @@ import java.util.Comparator;
 import seedu.task.commons.exceptions.IllegalValueException;
 
 /**
- * Represents a Task's description in the ToDo list.
+ * Represents a Task's description in the Task Manager.
  * Guarantees: immutable; is valid as declared in {@link #isValidDescription(String)}
  */
 public class Description implements Comparable<Description> {
 
     public static final String MESSAGE_DESCRIPTION_CONSTRAINTS =
-            "Task descriptions should only contain alphanumeric characters and spaces, and it should not be blank";
+            "Task descriptions cannot start with a space, "
+                    + "should only contain alphanumeric characters and spaces, "
+                    + "and it should not be blank";
 
     /*
      * The first character of the task must not be a whitespace,
      * otherwise " " (a blank string) becomes a valid input.
      */
-    public static final String DESCRIPTION_VALIDATION_REGEX = "^[A-Za-z, ]++$";
+    public static final String DESCRIPTION_VALIDATION_REGEX = "^[^ ][A-Za-z0-9!@#$%^&*'-_, ]++$";
 
     public final String description;
 
@@ -65,7 +67,7 @@ public class Description implements Comparable<Description> {
         return this.description.compareTo(other.description);
     }
 
-    public static Comparator<Description> DescriptionComparator = new Comparator<Description>() {
+    public static Comparator<Description> descriptionComparator = new Comparator<Description>() {
 
         @Override
         public int compare(Description description1, Description description2) {
