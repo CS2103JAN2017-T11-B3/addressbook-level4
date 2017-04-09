@@ -18,7 +18,7 @@ By : `Team CS2103JAN2017-T11-B3`  &nbsp;&nbsp;&nbsp;&nbsp; Since: `Jan 2017`
 	> * The "Task List Panel" on the left is updated. <br>
 
 3. List all tasks: `list`
-	
+
 	Response:
 	> * All tasks in the Task Manager are shown in the "Task List Panel" on the left side of the window. <br>
 	> * Use the scroll bar to view all tasks.
@@ -30,7 +30,7 @@ By : `Team CS2103JAN2017-T11-B3`  &nbsp;&nbsp;&nbsp;&nbsp; Since: `Jan 2017`
 			e. Alphabetical order of description <br>
 
 4. Find a task: `find 11/04/2017`
- 
+
 	Response:
 	> * All tasks that will be due on April 13, 2017 are shown in the "Task List Panel". <br>
 	> * The message box will display the number of tasks displayed.
@@ -43,7 +43,7 @@ By : `Team CS2103JAN2017-T11-B3`  &nbsp;&nbsp;&nbsp;&nbsp; Since: `Jan 2017`
 ## 2. Testing for `add` command
 
 1. Add a normal task: `add Cook for mom sd/12/04/2017 ed/12/04/2017 p/1`
-	
+
 	Response:
 	> * `New task added: Cook for mom Priority: 1 Start Timing: 12/04/2017 End Timing: 12/04/2017 Tags:` message is shown in the message box. <br>
 	> * In the "Task List Panel", the corresponding task card is added. (Index: 8)
