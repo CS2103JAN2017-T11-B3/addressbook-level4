@@ -1,0 +1,3123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tasklist>
+    <tasks>
+        <description>Wife's Bday</description>
+        <priority>1</priority>
+        <recurring>true</recurring>
+        <frequency>1y</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>18/04/2016</value>
+                <timing>2016-04-18T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>18/04/2016</value>
+                <timing>2016-04-18T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>18/04/2017</value>
+                <timing>2017-04-18T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>18/04/2017</value>
+                <timing>2017-04-18T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>18/04/2018</value>
+                <timing>2018-04-18T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>18/04/2018</value>
+                <timing>2018-04-18T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>18/04/2019</value>
+                <timing>2019-04-18T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>18/04/2019</value>
+                <timing>2019-04-18T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Pay Electric Bill</description>
+        <priority>1</priority>
+        <recurring>true</recurring>
+        <frequency>1m</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/01/2017</value>
+                <timing>2017-01-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/01/2017</value>
+                <timing>2017-01-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/02/2017</value>
+                <timing>2017-02-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/02/2017</value>
+                <timing>2017-02-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/03/2017</value>
+                <timing>2017-03-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/03/2017</value>
+                <timing>2017-03-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/04/2017</value>
+                <timing>2017-04-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/04/2017</value>
+                <timing>2017-04-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/05/2017</value>
+                <timing>2017-05-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/05/2017</value>
+                <timing>2017-05-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/06/2017</value>
+                <timing>2017-06-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/06/2017</value>
+                <timing>2017-06-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/07/2017</value>
+                <timing>2017-07-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/07/2017</value>
+                <timing>2017-07-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/08/2017</value>
+                <timing>2017-08-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/08/2017</value>
+                <timing>2017-08-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/09/2017</value>
+                <timing>2017-09-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/09/2017</value>
+                <timing>2017-09-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/10/2017</value>
+                <timing>2017-10-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/10/2017</value>
+                <timing>2017-10-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/11/2017</value>
+                <timing>2017-11-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/11/2017</value>
+                <timing>2017-11-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/12/2017</value>
+                <timing>2017-12-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/12/2017</value>
+                <timing>2017-12-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>cs3226 tutorial</description>
+        <priority>1</priority>
+        <recurring>true</recurring>
+        <frequency>7d</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 16/01/2017</value>
+                <timing>2017-01-16T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 16/01/2017</value>
+                <timing>2017-01-16T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 23/01/2017</value>
+                <timing>2017-01-23T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 23/01/2017</value>
+                <timing>2017-01-23T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 30/01/2017</value>
+                <timing>2017-01-30T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 30/01/2017</value>
+                <timing>2017-01-30T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 06/02/2017</value>
+                <timing>2017-02-06T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 06/02/2017</value>
+                <timing>2017-02-06T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 13/02/2017</value>
+                <timing>2017-02-13T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 13/02/2017</value>
+                <timing>2017-02-13T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 20/02/2017</value>
+                <timing>2017-02-20T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 20/02/2017</value>
+                <timing>2017-02-20T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 27/02/2017</value>
+                <timing>2017-02-27T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 27/02/2017</value>
+                <timing>2017-02-27T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 06/03/2017</value>
+                <timing>2017-03-06T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 06/03/2017</value>
+                <timing>2017-03-06T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 13/03/2017</value>
+                <timing>2017-03-13T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 13/03/2017</value>
+                <timing>2017-03-13T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 20/03/2017</value>
+                <timing>2017-03-20T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14:00 20/03/2017</value>
+                <timing>2017-03-20T14:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Get a Bone for my Dog</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>family</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>27/03/2017</value>
+                <timing>2017-03-27T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>27/03/2017</value>
+                <timing>2017-03-27T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Submit 2103 Project</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>11:59 10/04/2017</value>
+                <timing>2017-04-10T11:59:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Go To Gym</description>
+        <priority>1</priority>
+        <recurring>true</recurring>
+        <frequency>3d</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 10/04/2017</value>
+                <timing>2017-04-10T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 10/04/2017</value>
+                <timing>2017-04-10T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 13/04/2017</value>
+                <timing>2017-04-13T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 13/04/2017</value>
+                <timing>2017-04-13T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 16/04/2017</value>
+                <timing>2017-04-16T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 16/04/2017</value>
+                <timing>2017-04-16T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 19/04/2017</value>
+                <timing>2017-04-19T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 19/04/2017</value>
+                <timing>2017-04-19T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 22/04/2017</value>
+                <timing>2017-04-22T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 22/04/2017</value>
+                <timing>2017-04-22T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 25/04/2017</value>
+                <timing>2017-04-25T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 25/04/2017</value>
+                <timing>2017-04-25T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 28/04/2017</value>
+                <timing>2017-04-28T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 28/04/2017</value>
+                <timing>2017-04-28T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/05/2017</value>
+                <timing>2017-05-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/05/2017</value>
+                <timing>2017-05-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 04/05/2017</value>
+                <timing>2017-05-04T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 04/05/2017</value>
+                <timing>2017-05-04T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 07/05/2017</value>
+                <timing>2017-05-07T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 07/05/2017</value>
+                <timing>2017-05-07T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 10/05/2017</value>
+                <timing>2017-05-10T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 10/05/2017</value>
+                <timing>2017-05-10T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 13/05/2017</value>
+                <timing>2017-05-13T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 13/05/2017</value>
+                <timing>2017-05-13T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 16/05/2017</value>
+                <timing>2017-05-16T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 16/05/2017</value>
+                <timing>2017-05-16T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 19/05/2017</value>
+                <timing>2017-05-19T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 19/05/2017</value>
+                <timing>2017-05-19T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 22/05/2017</value>
+                <timing>2017-05-22T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 22/05/2017</value>
+                <timing>2017-05-22T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 25/05/2017</value>
+                <timing>2017-05-25T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 25/05/2017</value>
+                <timing>2017-05-25T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 28/05/2017</value>
+                <timing>2017-05-28T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 28/05/2017</value>
+                <timing>2017-05-28T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 31/05/2017</value>
+                <timing>2017-05-31T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 31/05/2017</value>
+                <timing>2017-05-31T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 03/06/2017</value>
+                <timing>2017-06-03T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 03/06/2017</value>
+                <timing>2017-06-03T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 06/06/2017</value>
+                <timing>2017-06-06T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 06/06/2017</value>
+                <timing>2017-06-06T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 09/06/2017</value>
+                <timing>2017-06-09T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 09/06/2017</value>
+                <timing>2017-06-09T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>CS3226 Demo</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>09:00 11/04/2017</value>
+                <timing>2017-04-11T09:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 11/04/2017</value>
+                <timing>2017-04-11T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Finish Leftovers</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>important</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12/04/2017</value>
+                <timing>2017-04-12T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>12/04/2017</value>
+                <timing>2017-04-12T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Print Notes for MA1101</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>13/04/2017</value>
+                <timing>2017-04-13T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>13/04/2017</value>
+                <timing>2017-04-13T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Demo CS2103</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12:00 13/04/2017</value>
+                <timing>2017-04-13T12:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>11:00 13/04/2017</value>
+                <timing>2017-04-13T11:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Stock up on Fruit</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>15/04/2017</value>
+                <timing>2017-04-15T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15/04/2017</value>
+                <timing>2017-04-15T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>CS2106 Exam</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>exam</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>15:00 24/04/2017</value>
+                <timing>2017-04-24T15:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>13:00 24/04/2017</value>
+                <timing>2017-04-24T13:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>CS2103 Exam</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>exam</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>15:00 25/04/2017</value>
+                <timing>2017-04-25T15:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>13:00 25/04/2017</value>
+                <timing>2017-04-25T13:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Book Tickets to California</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>26/04/2017</value>
+                <timing>2017-04-26T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Google Interview</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>interview</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12:30 26/04/2017</value>
+                <timing>2017-04-26T12:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>10:30 26/04/2017</value>
+                <timing>2017-04-26T10:30:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>pay boss $25</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/05/2017</value>
+                <timing>2017-05-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Finish Prep for TOEFL</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>06/05/2017</value>
+                <timing>2017-05-06T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>fly back to Taiwan</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>20:45 06/05/2017</value>
+                <timing>2017-05-06T20:45:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>16:45 06/05/2017</value>
+                <timing>2017-05-06T16:45:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Uncle Soo's Bday</description>
+        <priority>1</priority>
+        <recurring>true</recurring>
+        <frequency>1y</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12/05/2017</value>
+                <timing>2017-05-12T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>12/05/2017</value>
+                <timing>2017-05-12T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12/05/2018</value>
+                <timing>2018-05-12T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>12/05/2018</value>
+                <timing>2018-05-12T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12/05/2019</value>
+                <timing>2019-05-12T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>12/05/2019</value>
+                <timing>2019-05-12T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12/05/2020</value>
+                <timing>2020-05-12T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>12/05/2020</value>
+                <timing>2020-05-12T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Talk to Neighbors about Dinner Sometime</description>
+        <priority>1</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>floating</value>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Write Thank You Letter to Professor</description>
+        <priority>2</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>30/03/2017</value>
+                <timing>2017-03-30T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>30/03/2017</value>
+                <timing>2017-03-30T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Monthly doc check-up</description>
+        <priority>2</priority>
+        <recurring>true</recurring>
+        <frequency>1m</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/04/2017</value>
+                <timing>2017-04-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/04/2017</value>
+                <timing>2017-04-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/05/2017</value>
+                <timing>2017-05-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/05/2017</value>
+                <timing>2017-05-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/06/2017</value>
+                <timing>2017-06-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/06/2017</value>
+                <timing>2017-06-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/07/2017</value>
+                <timing>2017-07-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/07/2017</value>
+                <timing>2017-07-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/08/2017</value>
+                <timing>2017-08-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/08/2017</value>
+                <timing>2017-08-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/09/2017</value>
+                <timing>2017-09-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/09/2017</value>
+                <timing>2017-09-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/10/2017</value>
+                <timing>2017-10-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/10/2017</value>
+                <timing>2017-10-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/11/2017</value>
+                <timing>2017-11-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/11/2017</value>
+                <timing>2017-11-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/12/2017</value>
+                <timing>2017-12-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/12/2017</value>
+                <timing>2017-12-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/01/2018</value>
+                <timing>2018-01-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/01/2018</value>
+                <timing>2018-01-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/02/2018</value>
+                <timing>2018-02-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/02/2018</value>
+                <timing>2018-02-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 01/03/2018</value>
+                <timing>2018-03-01T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 01/03/2018</value>
+                <timing>2018-03-01T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Pay the Credit Card Bill</description>
+        <priority>2</priority>
+        <recurring>true</recurring>
+        <frequency>1m</frequency>
+        <tagged>bills</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/04/2017</value>
+                <timing>2017-04-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/04/2017</value>
+                <timing>2017-04-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/05/2017</value>
+                <timing>2017-05-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/05/2017</value>
+                <timing>2017-05-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/06/2017</value>
+                <timing>2017-06-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/06/2017</value>
+                <timing>2017-06-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/07/2017</value>
+                <timing>2017-07-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/07/2017</value>
+                <timing>2017-07-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/08/2017</value>
+                <timing>2017-08-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/08/2017</value>
+                <timing>2017-08-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/09/2017</value>
+                <timing>2017-09-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/09/2017</value>
+                <timing>2017-09-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/10/2017</value>
+                <timing>2017-10-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/10/2017</value>
+                <timing>2017-10-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/11/2017</value>
+                <timing>2017-11-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/11/2017</value>
+                <timing>2017-11-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/12/2017</value>
+                <timing>2017-12-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/12/2017</value>
+                <timing>2017-12-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/01/2018</value>
+                <timing>2018-01-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/01/2018</value>
+                <timing>2018-01-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/02/2018</value>
+                <timing>2018-02-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/02/2018</value>
+                <timing>2018-02-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/03/2018</value>
+                <timing>2018-03-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/03/2018</value>
+                <timing>2018-03-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>CS2106 Meeting</description>
+        <priority>2</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>22:45 08/04/2017</value>
+                <timing>2017-04-08T22:45:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>21:15 08/04/2017</value>
+                <timing>2017-04-08T21:15:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Meet Albert for lunch</description>
+        <priority>2</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>14:30 17/04/2017</value>
+                <timing>2017-04-17T14:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>13:00 17/04/2017</value>
+                <timing>2017-04-17T13:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Travel to Bali</description>
+        <priority>2</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>vacation</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>19/04/2017</value>
+                <timing>2017-04-19T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>14/04/2017</value>
+                <timing>2017-04-14T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Volleyball Tourney</description>
+        <priority>2</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>14:45 20/04/2017</value>
+                <timing>2017-04-20T14:45:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>12:15 20/04/2017</value>
+                <timing>2017-04-20T12:15:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Purchase Anniversary Gift</description>
+        <priority>2</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>28/04/2017</value>
+                <timing>2017-04-28T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Sign up for Classes</description>
+        <priority>2</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>22/08/2017</value>
+                <timing>2017-08-22T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/08/2017</value>
+                <timing>2017-08-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Party at John's</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>party</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/01/2017</value>
+                <timing>2017-01-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>31/01/2016</value>
+                <timing>2016-01-31T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Attend CS2103 Tutorial</description>
+        <priority>3</priority>
+        <recurring>true</recurring>
+        <frequency>7d</frequency>
+        <tagged>tutorial</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12/01/2017 12:00</value>
+                <timing>2017-01-12T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>12/01/2017 11:00</value>
+                <timing>2017-01-12T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>00:00 19/01/2017</value>
+                <timing>2017-01-19T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>00:00 19/01/2017</value>
+                <timing>2017-01-19T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>00:00 26/01/2017</value>
+                <timing>2017-01-26T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>00:00 26/01/2017</value>
+                <timing>2017-01-26T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>00:00 02/02/2017</value>
+                <timing>2017-02-02T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>00:00 02/02/2017</value>
+                <timing>2017-02-02T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>00:00 09/02/2017</value>
+                <timing>2017-02-09T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>00:00 09/02/2017</value>
+                <timing>2017-02-09T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>00:00 16/02/2017</value>
+                <timing>2017-02-16T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>00:00 16/02/2017</value>
+                <timing>2017-02-16T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>00:00 23/02/2017</value>
+                <timing>2017-02-23T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>00:00 23/02/2017</value>
+                <timing>2017-02-23T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>00:00 02/03/2017</value>
+                <timing>2017-03-02T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>00:00 02/03/2017</value>
+                <timing>2017-03-02T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>00:00 09/03/2017</value>
+                <timing>2017-03-09T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>00:00 09/03/2017</value>
+                <timing>2017-03-09T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>00:00 16/03/2017</value>
+                <timing>2017-03-16T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>00:00 16/03/2017</value>
+                <timing>2017-03-16T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Get Flowers for Mom</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>important</tagged>
+        <tagged>family</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>25/03/2017</value>
+                <timing>2017-03-25T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>25/03/2017</value>
+                <timing>2017-03-25T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>SCRUM Standup</description>
+        <priority>3</priority>
+        <recurring>true</recurring>
+        <frequency>1d</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 25/03/2017</value>
+                <timing>2017-03-25T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 25/03/2017</value>
+                <timing>2017-03-25T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 26/03/2017</value>
+                <timing>2017-03-26T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 26/03/2017</value>
+                <timing>2017-03-26T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 27/03/2017</value>
+                <timing>2017-03-27T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 27/03/2017</value>
+                <timing>2017-03-27T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 28/03/2017</value>
+                <timing>2017-03-28T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 28/03/2017</value>
+                <timing>2017-03-28T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 29/03/2017</value>
+                <timing>2017-03-29T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 29/03/2017</value>
+                <timing>2017-03-29T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 30/03/2017</value>
+                <timing>2017-03-30T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 30/03/2017</value>
+                <timing>2017-03-30T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 31/03/2017</value>
+                <timing>2017-03-31T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 31/03/2017</value>
+                <timing>2017-03-31T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 01/04/2017</value>
+                <timing>2017-04-01T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 01/04/2017</value>
+                <timing>2017-04-01T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 02/04/2017</value>
+                <timing>2017-04-02T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 02/04/2017</value>
+                <timing>2017-04-02T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 03/04/2017</value>
+                <timing>2017-04-03T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 03/04/2017</value>
+                <timing>2017-04-03T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 04/04/2017</value>
+                <timing>2017-04-04T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 04/04/2017</value>
+                <timing>2017-04-04T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 05/04/2017</value>
+                <timing>2017-04-05T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 05/04/2017</value>
+                <timing>2017-04-05T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 06/04/2017</value>
+                <timing>2017-04-06T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 06/04/2017</value>
+                <timing>2017-04-06T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 07/04/2017</value>
+                <timing>2017-04-07T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 07/04/2017</value>
+                <timing>2017-04-07T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 08/04/2017</value>
+                <timing>2017-04-08T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 08/04/2017</value>
+                <timing>2017-04-08T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 09/04/2017</value>
+                <timing>2017-04-09T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 09/04/2017</value>
+                <timing>2017-04-09T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 10/04/2017</value>
+                <timing>2017-04-10T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 10/04/2017</value>
+                <timing>2017-04-10T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 11/04/2017</value>
+                <timing>2017-04-11T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 11/04/2017</value>
+                <timing>2017-04-11T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 12/04/2017</value>
+                <timing>2017-04-12T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 12/04/2017</value>
+                <timing>2017-04-12T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 13/04/2017</value>
+                <timing>2017-04-13T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 13/04/2017</value>
+                <timing>2017-04-13T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 14/04/2017</value>
+                <timing>2017-04-14T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 14/04/2017</value>
+                <timing>2017-04-14T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 15/04/2017</value>
+                <timing>2017-04-15T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 15/04/2017</value>
+                <timing>2017-04-15T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 16/04/2017</value>
+                <timing>2017-04-16T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 16/04/2017</value>
+                <timing>2017-04-16T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 17/04/2017</value>
+                <timing>2017-04-17T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 17/04/2017</value>
+                <timing>2017-04-17T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 18/04/2017</value>
+                <timing>2017-04-18T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 18/04/2017</value>
+                <timing>2017-04-18T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 19/04/2017</value>
+                <timing>2017-04-19T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 19/04/2017</value>
+                <timing>2017-04-19T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 20/04/2017</value>
+                <timing>2017-04-20T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 20/04/2017</value>
+                <timing>2017-04-20T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 21/04/2017</value>
+                <timing>2017-04-21T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 21/04/2017</value>
+                <timing>2017-04-21T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 22/04/2017</value>
+                <timing>2017-04-22T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 22/04/2017</value>
+                <timing>2017-04-22T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 23/04/2017</value>
+                <timing>2017-04-23T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 23/04/2017</value>
+                <timing>2017-04-23T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 24/04/2017</value>
+                <timing>2017-04-24T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 24/04/2017</value>
+                <timing>2017-04-24T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 25/04/2017</value>
+                <timing>2017-04-25T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 25/04/2017</value>
+                <timing>2017-04-25T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 26/04/2017</value>
+                <timing>2017-04-26T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 26/04/2017</value>
+                <timing>2017-04-26T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 27/04/2017</value>
+                <timing>2017-04-27T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 27/04/2017</value>
+                <timing>2017-04-27T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 28/04/2017</value>
+                <timing>2017-04-28T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 28/04/2017</value>
+                <timing>2017-04-28T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 29/04/2017</value>
+                <timing>2017-04-29T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 29/04/2017</value>
+                <timing>2017-04-29T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 30/04/2017</value>
+                <timing>2017-04-30T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 30/04/2017</value>
+                <timing>2017-04-30T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 01/05/2017</value>
+                <timing>2017-05-01T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 01/05/2017</value>
+                <timing>2017-05-01T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 02/05/2017</value>
+                <timing>2017-05-02T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 02/05/2017</value>
+                <timing>2017-05-02T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 03/05/2017</value>
+                <timing>2017-05-03T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 03/05/2017</value>
+                <timing>2017-05-03T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 04/05/2017</value>
+                <timing>2017-05-04T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 04/05/2017</value>
+                <timing>2017-05-04T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 05/05/2017</value>
+                <timing>2017-05-05T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 05/05/2017</value>
+                <timing>2017-05-05T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 06/05/2017</value>
+                <timing>2017-05-06T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 06/05/2017</value>
+                <timing>2017-05-06T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 07/05/2017</value>
+                <timing>2017-05-07T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 07/05/2017</value>
+                <timing>2017-05-07T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 08/05/2017</value>
+                <timing>2017-05-08T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 08/05/2017</value>
+                <timing>2017-05-08T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 09/05/2017</value>
+                <timing>2017-05-09T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 09/05/2017</value>
+                <timing>2017-05-09T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 10/05/2017</value>
+                <timing>2017-05-10T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 10/05/2017</value>
+                <timing>2017-05-10T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 11/05/2017</value>
+                <timing>2017-05-11T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 11/05/2017</value>
+                <timing>2017-05-11T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 12/05/2017</value>
+                <timing>2017-05-12T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 12/05/2017</value>
+                <timing>2017-05-12T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 13/05/2017</value>
+                <timing>2017-05-13T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 13/05/2017</value>
+                <timing>2017-05-13T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 14/05/2017</value>
+                <timing>2017-05-14T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 14/05/2017</value>
+                <timing>2017-05-14T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 15/05/2017</value>
+                <timing>2017-05-15T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 15/05/2017</value>
+                <timing>2017-05-15T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 16/05/2017</value>
+                <timing>2017-05-16T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 16/05/2017</value>
+                <timing>2017-05-16T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 17/05/2017</value>
+                <timing>2017-05-17T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 17/05/2017</value>
+                <timing>2017-05-17T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 18/05/2017</value>
+                <timing>2017-05-18T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 18/05/2017</value>
+                <timing>2017-05-18T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 19/05/2017</value>
+                <timing>2017-05-19T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 19/05/2017</value>
+                <timing>2017-05-19T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 20/05/2017</value>
+                <timing>2017-05-20T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 20/05/2017</value>
+                <timing>2017-05-20T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 21/05/2017</value>
+                <timing>2017-05-21T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 21/05/2017</value>
+                <timing>2017-05-21T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 22/05/2017</value>
+                <timing>2017-05-22T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 22/05/2017</value>
+                <timing>2017-05-22T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:30 23/05/2017</value>
+                <timing>2017-05-23T08:30:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08:00 23/05/2017</value>
+                <timing>2017-05-23T08:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Study for CS2103 test</description>
+        <priority>3</priority>
+        <recurring>true</recurring>
+        <frequency>2d</frequency>
+        <tagged>test</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/04/2017</value>
+                <timing>2017-04-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/04/2017</value>
+                <timing>2017-04-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>03/04/2017</value>
+                <timing>2017-04-03T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>03/04/2017</value>
+                <timing>2017-04-03T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/04/2017</value>
+                <timing>2017-04-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/04/2017</value>
+                <timing>2017-04-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>07/04/2017</value>
+                <timing>2017-04-07T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07/04/2017</value>
+                <timing>2017-04-07T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>09/04/2017</value>
+                <timing>2017-04-09T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>09/04/2017</value>
+                <timing>2017-04-09T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>11/04/2017</value>
+                <timing>2017-04-11T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>11/04/2017</value>
+                <timing>2017-04-11T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>13/04/2017</value>
+                <timing>2017-04-13T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>13/04/2017</value>
+                <timing>2017-04-13T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>15/04/2017</value>
+                <timing>2017-04-15T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15/04/2017</value>
+                <timing>2017-04-15T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>17/04/2017</value>
+                <timing>2017-04-17T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>17/04/2017</value>
+                <timing>2017-04-17T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>19/04/2017</value>
+                <timing>2017-04-19T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>19/04/2017</value>
+                <timing>2017-04-19T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>21/04/2017</value>
+                <timing>2017-04-21T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>21/04/2017</value>
+                <timing>2017-04-21T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>23/04/2017</value>
+                <timing>2017-04-23T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>23/04/2017</value>
+                <timing>2017-04-23T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>25/04/2017</value>
+                <timing>2017-04-25T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>25/04/2017</value>
+                <timing>2017-04-25T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>27/04/2017</value>
+                <timing>2017-04-27T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>27/04/2017</value>
+                <timing>2017-04-27T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>29/04/2017</value>
+                <timing>2017-04-29T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>29/04/2017</value>
+                <timing>2017-04-29T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/05/2017</value>
+                <timing>2017-05-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/05/2017</value>
+                <timing>2017-05-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>03/05/2017</value>
+                <timing>2017-05-03T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>03/05/2017</value>
+                <timing>2017-05-03T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/05/2017</value>
+                <timing>2017-05-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/05/2017</value>
+                <timing>2017-05-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>07/05/2017</value>
+                <timing>2017-05-07T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07/05/2017</value>
+                <timing>2017-05-07T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>09/05/2017</value>
+                <timing>2017-05-09T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>09/05/2017</value>
+                <timing>2017-05-09T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>11/05/2017</value>
+                <timing>2017-05-11T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>11/05/2017</value>
+                <timing>2017-05-11T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>13/05/2017</value>
+                <timing>2017-05-13T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>13/05/2017</value>
+                <timing>2017-05-13T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>15/05/2017</value>
+                <timing>2017-05-15T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15/05/2017</value>
+                <timing>2017-05-15T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>17/05/2017</value>
+                <timing>2017-05-17T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>17/05/2017</value>
+                <timing>2017-05-17T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>19/05/2017</value>
+                <timing>2017-05-19T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>19/05/2017</value>
+                <timing>2017-05-19T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>21/05/2017</value>
+                <timing>2017-05-21T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>21/05/2017</value>
+                <timing>2017-05-21T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>23/05/2017</value>
+                <timing>2017-05-23T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>23/05/2017</value>
+                <timing>2017-05-23T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>25/05/2017</value>
+                <timing>2017-05-25T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>25/05/2017</value>
+                <timing>2017-05-25T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>27/05/2017</value>
+                <timing>2017-05-27T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>27/05/2017</value>
+                <timing>2017-05-27T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>29/05/2017</value>
+                <timing>2017-05-29T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>29/05/2017</value>
+                <timing>2017-05-29T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>31/05/2017</value>
+                <timing>2017-05-31T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>31/05/2017</value>
+                <timing>2017-05-31T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Watch NCAA Championship</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>13:00 04/04/2017</value>
+                <timing>2017-04-04T13:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>09:00 04/04/2017</value>
+                <timing>2017-04-04T09:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Do the Laundry</description>
+        <priority>3</priority>
+        <recurring>true</recurring>
+        <frequency>7d</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08/04/2017</value>
+                <timing>2017-04-08T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08/04/2017</value>
+                <timing>2017-04-08T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>15/04/2017</value>
+                <timing>2017-04-15T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15/04/2017</value>
+                <timing>2017-04-15T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>22/04/2017</value>
+                <timing>2017-04-22T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>22/04/2017</value>
+                <timing>2017-04-22T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>29/04/2017</value>
+                <timing>2017-04-29T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>29/04/2017</value>
+                <timing>2017-04-29T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>06/05/2017</value>
+                <timing>2017-05-06T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>06/05/2017</value>
+                <timing>2017-05-06T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>13/05/2017</value>
+                <timing>2017-05-13T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>13/05/2017</value>
+                <timing>2017-05-13T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>20/05/2017</value>
+                <timing>2017-05-20T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>20/05/2017</value>
+                <timing>2017-05-20T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>27/05/2017</value>
+                <timing>2017-05-27T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>27/05/2017</value>
+                <timing>2017-05-27T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>03/06/2017</value>
+                <timing>2017-06-03T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>03/06/2017</value>
+                <timing>2017-06-03T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>10/06/2017</value>
+                <timing>2017-06-10T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>10/06/2017</value>
+                <timing>2017-06-10T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Repair my Shoes at Clementi</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>repair</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>09/04/2017</value>
+                <timing>2017-04-09T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Yoga Classes</description>
+        <priority>3</priority>
+        <recurring>true</recurring>
+        <frequency>7d</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 09/04/2017</value>
+                <timing>2017-04-09T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 09/04/2017</value>
+                <timing>2017-04-09T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 16/04/2017</value>
+                <timing>2017-04-16T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 16/04/2017</value>
+                <timing>2017-04-16T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 23/04/2017</value>
+                <timing>2017-04-23T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 23/04/2017</value>
+                <timing>2017-04-23T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 30/04/2017</value>
+                <timing>2017-04-30T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 30/04/2017</value>
+                <timing>2017-04-30T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 07/05/2017</value>
+                <timing>2017-05-07T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 07/05/2017</value>
+                <timing>2017-05-07T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 14/05/2017</value>
+                <timing>2017-05-14T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 14/05/2017</value>
+                <timing>2017-05-14T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 21/05/2017</value>
+                <timing>2017-05-21T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 21/05/2017</value>
+                <timing>2017-05-21T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 28/05/2017</value>
+                <timing>2017-05-28T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 28/05/2017</value>
+                <timing>2017-05-28T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 04/06/2017</value>
+                <timing>2017-06-04T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 04/06/2017</value>
+                <timing>2017-06-04T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08:00 11/06/2017</value>
+                <timing>2017-06-11T08:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>07:00 11/06/2017</value>
+                <timing>2017-06-11T07:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Take princess to Ballerina Practice</description>
+        <priority>3</priority>
+        <recurring>true</recurring>
+        <frequency>7d</frequency>
+        <tagged>family</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>10/04/2017</value>
+                <timing>2017-04-10T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>10/04/2017</value>
+                <timing>2017-04-10T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>17/04/2017</value>
+                <timing>2017-04-17T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>17/04/2017</value>
+                <timing>2017-04-17T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>24/04/2017</value>
+                <timing>2017-04-24T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>24/04/2017</value>
+                <timing>2017-04-24T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>01/05/2017</value>
+                <timing>2017-05-01T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>01/05/2017</value>
+                <timing>2017-05-01T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>08/05/2017</value>
+                <timing>2017-05-08T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>08/05/2017</value>
+                <timing>2017-05-08T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>15/05/2017</value>
+                <timing>2017-05-15T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15/05/2017</value>
+                <timing>2017-05-15T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>22/05/2017</value>
+                <timing>2017-05-22T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>22/05/2017</value>
+                <timing>2017-05-22T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>29/05/2017</value>
+                <timing>2017-05-29T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>29/05/2017</value>
+                <timing>2017-05-29T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>05/06/2017</value>
+                <timing>2017-06-05T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>05/06/2017</value>
+                <timing>2017-06-05T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12/06/2017</value>
+                <timing>2017-06-12T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>12/06/2017</value>
+                <timing>2017-06-12T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>CS2106 Makeup Tutorial</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>tutorial</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>16:00 11/04/2017</value>
+                <timing>2017-04-11T16:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15:00 11/04/2017</value>
+                <timing>2017-04-11T15:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Rehearse for Play</description>
+        <priority>3</priority>
+        <recurring>true</recurring>
+        <frequency>7d</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12/04/2017</value>
+                <timing>2017-04-12T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>11/04/2017</value>
+                <timing>2017-04-11T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>19/04/2017</value>
+                <timing>2017-04-19T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>18/04/2017</value>
+                <timing>2017-04-18T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>26/04/2017</value>
+                <timing>2017-04-26T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>25/04/2017</value>
+                <timing>2017-04-25T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>03/05/2017</value>
+                <timing>2017-05-03T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>02/05/2017</value>
+                <timing>2017-05-02T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>10/05/2017</value>
+                <timing>2017-05-10T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>09/05/2017</value>
+                <timing>2017-05-09T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>17/05/2017</value>
+                <timing>2017-05-17T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>16/05/2017</value>
+                <timing>2017-05-16T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>24/05/2017</value>
+                <timing>2017-05-24T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>23/05/2017</value>
+                <timing>2017-05-23T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>31/05/2017</value>
+                <timing>2017-05-31T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>30/05/2017</value>
+                <timing>2017-05-30T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>07/06/2017</value>
+                <timing>2017-06-07T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>06/06/2017</value>
+                <timing>2017-06-06T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>14/06/2017</value>
+                <timing>2017-06-14T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>13/06/2017</value>
+                <timing>2017-06-13T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Join Project Expo at NUS</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>12/04/2017</value>
+                <timing>2017-04-12T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Last Day of Classes</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>14/04/2017</value>
+                <timing>2017-04-14T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Pick up pictures from plaza</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>27/04/2017</value>
+                <timing>2017-04-27T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>ST2131 Exam</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>15:00 03/05/2017</value>
+                <timing>2017-05-03T15:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>13:00 03/05/2017</value>
+                <timing>2017-05-03T13:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Begin GRE Prep</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>06/05/2017</value>
+                <timing>2017-05-06T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>06/05/2017</value>
+                <timing>2017-05-06T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>London Business Trip</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>travel</tagged>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>20/05/2017</value>
+                <timing>2017-05-20T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>15/05/2017</value>
+                <timing>2017-05-15T00:00:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Take Corgi to the Vet</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>floating</value>
+            </endTiming>
+            <startTiming>
+                <value>12:15 10/04/2017</value>
+                <timing>2017-04-10T12:15:00+08:00</timing>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Fix Sink Leak</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>floating</value>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Make Cookies</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>floating</value>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>Visit Garden By The Bay</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <occurrences>
+            <complete>false</complete>
+            <endTiming>
+                <value>floating</value>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tasks>
+        <description>family event</description>
+        <priority>3</priority>
+        <recurring>false</recurring>
+        <frequency>0</frequency>
+        <tagged>complete</tagged>
+        <occurrences>
+            <complete>true</complete>
+            <endTiming>
+                <value>09/04/2017</value>
+                <timing>2017-04-09T00:00:00+08:00</timing>
+            </endTiming>
+            <startTiming>
+                <value>floating</value>
+            </startTiming>
+        </occurrences>
+    </tasks>
+    <tags>visit</tags>
+    <tags>study</tags>
+    <tags>exams</tags>
+    <tags>misc</tags>
+    <tags>vacation</tags>
+    <tags>test</tags>
+    <tags>tutorial</tags>
+    <tags>party</tags>
+    <tags>exam</tags>
+    <tags>complete</tags>
+    <tags>travel</tags>
+    <tags>interview</tags>
+    <tags>important</tags>
+    <tags>family</tags>
+    <tags>bills</tags>
+    <tags>repair</tags>
+</tasklist>
