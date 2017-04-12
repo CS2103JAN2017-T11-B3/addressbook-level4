@@ -294,7 +294,7 @@ public class CalenderPanel extends UiPart<Region> {
                         String[] taskListDateData = taskDate.toString().split("/");
                         String taskDateMonth = String.valueOf(taskDate.getMonth() + 1);
                         String taskDateDate = String.valueOf(taskDate.getDate());
-                        if (( taskDateDate+ "/" + taskDateMonth).equals(labelDate)) {
+                        if (( taskDateDate + "/" + taskDateMonth).equals(labelDate)) {
                             currentTaskList.getItems().addAll(taskList.get(i).getDescription().toString());
 
                         }
