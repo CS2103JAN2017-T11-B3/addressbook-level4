@@ -5,7 +5,6 @@
 .label {
     -fx-font-size: 11pt;
     -fx-font-family: "Segoe UI Semibold";
-    -fx-text-fill: #555555;
     -fx-opacity: 0.9;
 }
 
@@ -76,14 +75,14 @@
 }
 
 .split-pane:horizontal .split-pane-divider {
-    -fx-border-color: transparent #1d1d1d transparent #1d1d1d;
-    -fx-background-color: transparent, derive(#1d1d1d, 10%);
+    -fx-border-color: transparent #FFDCB9 transparent #FFCBB3;
+    -fx-background-color: transparent, derive(#FFCBB3, 10%);
 }
 
 .split-pane {
     -fx-border-radius: 1;
     -fx-border-width: 1;
-    -fx-background-color: derive(#1d1d1d, 20%);
+    -fx-background-color: derive(#FFCBB3, 20%);
 }
 
 .list-cell {
@@ -111,8 +110,8 @@
 }
 
 .anchor-pane-with-border {
-     -fx-background-color: derive(#1d1d1d, 20%);
-     -fx-border-color: derive(#1d1d1d, 10%);
+     -fx-background-color: derive(#FFCBB3, 20%);
+     -fx-border-color: derive(#FFCBB3, 10%);
      -fx-border-top-width: 1px;
 }
 
@@ -162,18 +161,23 @@
 }
 
 .menu-bar {
-    -fx-background-color: derive(#1d1d1d, 20%);
+    -fx-background-color: derive(#FF79BC, 20%);
+
 }
 
 .menu-bar .label {
     -fx-font-size: 14pt;
     -fx-font-family: "Segoe UI Light";
     -fx-text-fill: white;
-    -fx-opacity: 0.9;
 }
+.menu-item {
+    -fx-background-color: derive(#FF79BC, 20%);
 
+    -fx-border-width: 0;
+    -fx-border-color: derive(yellow, 30%);
+}
 .menu .left-container {
-    -fx-background-color: black;
+    -fx-background-color: #FF79BC;
 }
 
 /*
@@ -182,15 +186,13 @@
  * http://pixelduke.wordpress.com/2012/10/23/jmetro-windows-8-controls-on-java/
  */
 .button {
-    -fx-padding: 5 22 5 22;
-    -fx-border-color: #e2e2e2;
-    -fx-border-width: 2;
+
+
     -fx-background-radius: 0;
     -fx-background-color: #1d1d1d;
     -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
     -fx-font-size: 11pt;
     -fx-text-fill: #d8d8d8;
-    -fx-background-insets: 0 0 0 0, 0, 1, 2;
 }
 
 .button:hover {
@@ -251,7 +253,7 @@
 }
 
 .scroll-bar .thumb {
-    -fx-background-color: derive(#1d1d1d, 50%);
+    -fx-background-color: derive(#79FF79, 17%);
     -fx-background-insets: 3;
 }
 
@@ -294,8 +296,7 @@
 
 #tags .label {
     -fx-text-fill: white;
-    -fx-background-color: #383838;
-    -fx-padding: 1 3 1 3;
+    -fx-background-color: #FF79BC;
     -fx-border-radius: 2;
     -fx-background-radius: 2;
     -fx-font-size: 11;
